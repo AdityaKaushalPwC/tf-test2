@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>De datum waarop de toetsuitslag aan het systeem is toegevoegd, ofwel door handmatig uploaden ofwel direct vanuit een officiële bron.</help>
+    <label><!-- Date Received --></label>
+    <name>hed__Date_Received__c</name>
+</CustomFieldTranslation>

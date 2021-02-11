@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Als uw school procentuele scores gebruikt, voert u hier de procentuele score in die de student heeft behaald.</help>
+    <label><!-- Percent Grade --></label>
+    <name>hed__Percent_Grade__c</name>
+</CustomFieldTranslation>

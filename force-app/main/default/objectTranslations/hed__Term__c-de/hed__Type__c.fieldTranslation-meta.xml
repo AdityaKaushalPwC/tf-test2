@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Der Typ des Zeitabschnitts, z. B. Semester, Quartal oder Studienjahr.</help>
+    <label><!-- Type --></label>
+    <name>hed__Type__c</name>
+    <picklistValues>
+        <masterLabel>Part of Term</masterLabel>
+        <translation>Teil des Zeitabschnitts</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Quarter</masterLabel>
+        <translation>Quartal</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>School Year</masterLabel>
+        <translation>Studienjahr</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Semester</masterLabel>
+        <translation>Semester</translation>
+    </picklistValues>
+</CustomFieldTranslation>

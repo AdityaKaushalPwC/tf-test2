@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>conference360__Departure_Date__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The check-out date of the attendee for this hotel room reservation.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The check-out date of the attendee for this hotel room reservation.</inlineHelpText>
+    <label>Departure Date</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

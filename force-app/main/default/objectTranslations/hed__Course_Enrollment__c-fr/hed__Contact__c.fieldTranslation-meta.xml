@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Le membre étudiant ou professeur qui participe à cette offre de cours.</help>
+    <label><!-- Contact --></label>
+    <name>hed__Contact__c</name>
+    <relationshipLabel><!-- Course Connections --></relationshipLabel>
+</CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Si votre école utilise des chiffres pour désigner les notes, saisissez la note numérique que l&apos;étudiant a obtenue.</help>
+    <label><!-- Numerical Grade --></label>
+    <name>hed__Numerical_Grade__c</name>
+</CustomFieldTranslation>

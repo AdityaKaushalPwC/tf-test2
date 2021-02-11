@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>与 DOCUSIGN 收件人角色关联的值。此值用于映射到文档中的默认定位标记。</help>
+    <label><!-- RoleValue --></label>
+    <name>dsfs__RoleValue__c</name>
+</CustomFieldTranslation>

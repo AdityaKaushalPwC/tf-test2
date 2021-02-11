@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>conference360__Event__c.conference360__Attendees__r$Name</field>
+    </columns>
+    <columns>
+        <field>conference360__Event__c.conference360__Attendees__r.conference360__Seats__r$Name</field>
+    </columns>
+    <columns>
+        <field>conference360__Event__c.conference360__Attendees__r$conference360__Contact__c</field>
+    </columns>
+    <columns>
+        <field>conference360__Event__c.conference360__Attendees__r.conference360__Seats__r$conference360__Table__c</field>
+    </columns>
+    <filter>
+        <criteriaItems>
+            <column>conference360__Event__c$Id</column>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value/>
+        </criteriaItems>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>conference360__Event__c.conference360__Attendees__r.conference360__Seats__r$conference360__Table_Name__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Attendees With and Without Seats</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>conference360__Attendees_With_and_Without_Seats__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>conference360__Event__c$CreatedDate</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

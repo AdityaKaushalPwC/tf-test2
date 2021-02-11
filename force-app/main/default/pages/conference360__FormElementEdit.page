@@ -1,0 +1,42 @@
+<apex:page standardController="conference360__Form_Element__c" lightningStylesheets="true" applyHtmlTag="true" applyBodyTag="true" standardStylesheets="false" extensions="conference360.FormController">
+	<apex:pageMessages />
+	<style>
+	.btFEClass .slds-form-element__icon {
+		display: none !important;
+	}
+	.btFEClass .slds-col{
+		padding-top: 16px !important;
+	}
+	</style>
+	<apex:form >
+		<apex:inputHidden value="{!conference360__Form_Element__c.conference360__Form__c}" />
+		<apex:inputHidden value="{!conference360__Form_Element__c.Id}" />
+	</apex:form>
+
+	<apex:includeLightning />
+	<div id="lDiv"/>
+	<script>
+	var nameSpacePrefix = '{!JSENCODE(nameSpacePrefix)}';
+
+	if (nameSpacePrefix == '') {
+		nameSpacePrefix = 'c';
+	}
+
+	$Lightning.use(nameSpacePrefix + ':FormElementLtngApp', function() {
+		$Lightning.createComponent(nameSpacePrefix + ':formElement', {'formId':'{!JSENCODE(formId)}','recordId':'{!JSENCODE(recordId)}', 'isInVisualForce':true}, 'lDiv', function(cmp) { });
+	});
+
+	function inLightningExperience() {
+		return 'Theme4d' === '{!$User.UIThemeDisplayed}';
+	}
+
+	document.addEventListener("redirectFromLWC", function(event) {
+		console.log('vf event data window listener => ', event.detail);
+		if (inLightningExperience()) {
+			sforce.one.navigateToSObject(event.detail.recordId, event.detail.recordMode);
+		} else {
+			window.location.assign('/' + event.detail.recordId);
+		}
+	});
+	</script>
+</apex:page>

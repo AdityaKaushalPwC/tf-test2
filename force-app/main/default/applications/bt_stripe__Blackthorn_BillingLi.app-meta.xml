@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <brand>
+        <headerColor>#3A9F47</headerColor>
+        <logo>bt_stripe__blackthornlightninglogo</logo>
+        <logoVersion>1</logoVersion>
+        <shouldOverrideOrgTheme>false</shouldOverrideOrgTheme>
+    </brand>
+    <description>Stripe Billing Solution</description>
+    <formFactors>Large</formFactors>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <label>Blackthorn | Stripe Billing</label>
+    <navType>Standard</navType>
+    <tabs>standard-home</tabs>
+    <tabs>standard-Account</tabs>
+    <tabs>standard-Contact</tabs>
+    <tabs>bt_stripe__Stripe_Customer__c</tabs>
+    <tabs>standard-Opportunity</tabs>
+    <tabs>bt_stripe__Subscription_Schedule__c</tabs>
+    <tabs>bt_stripe__Subscription2__c</tabs>
+    <tabs>bt_stripe__Sales_Document__c</tabs>
+    <tabs>bt_stripe__Gateway_Order__c</tabs>
+    <tabs>standard-Product2</tabs>
+    <tabs>bt_stripe__Plan2__c</tabs>
+    <tabs>bt_stripe__Coupon2__c</tabs>
+    <tabs>bt_stripe__Payment_Gateway__c</tabs>
+    <tabs>bt_stripe__Payment_Method__c</tabs>
+    <tabs>bt_stripe__DocumentLinkTemplate__c</tabs>
+    <tabs>bt_stripe__Company__c</tabs>
+    <uiType>Lightning</uiType>
+</CustomApplication>

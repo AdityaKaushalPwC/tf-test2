@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>conference360__Processing_Fee__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Fee from the Payment Gateway, such as a credit card processing fee.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Fee from the Payment Gateway, such as a credit card processing fee.</inlineHelpText>
+    <label>Processing Fee</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Absorb</fullName>
+                <default>false</default>
+                <label>Absorb</label>
+            </value>
+            <value>
+                <fullName>Pass On</fullName>
+                <default>false</default>
+                <label>Pass On</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

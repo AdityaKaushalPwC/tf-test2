@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <brand>
+        <headerColor>#3A9F47</headerColor>
+        <logo>bt_stripe__blackthornlightninglogo</logo>
+        <logoVersion>1</logoVersion>
+        <shouldOverrideOrgTheme>false</shouldOverrideOrgTheme>
+    </brand>
+    <description>Stripe Connect Solution</description>
+    <formFactors>Large</formFactors>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <label>Blackthorn | Stripe Connect</label>
+    <navType>Standard</navType>
+    <tabs>standard-home</tabs>
+    <tabs>standard-Account</tabs>
+    <tabs>standard-Contact</tabs>
+    <tabs>bt_stripe__Connected_Account__c</tabs>
+    <tabs>bt_stripe__Company__c</tabs>
+    <tabs>bt_stripe__Stripe_Customer__c</tabs>
+    <tabs>bt_stripe__Payment_Method__c</tabs>
+    <tabs>bt_stripe__Transaction__c</tabs>
+    <tabs>bt_stripe__Payment_Schedule__c</tabs>
+    <tabs>bt_stripe__Dispute__c</tabs>
+    <uiType>Lightning</uiType>
+</CustomApplication>

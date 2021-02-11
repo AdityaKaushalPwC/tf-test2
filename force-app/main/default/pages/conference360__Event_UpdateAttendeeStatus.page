@@ -1,0 +1,3 @@
+<apex:page standardController="conference360__Event__c" extensions="conference360.EventsReportController" action="{!updateStatus}">
+<!-- this doesn't do any DML - it just sends an Email -->
+</apex:page>

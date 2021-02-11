@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Receipt email that goes out to the Contact (Bill To) or Lead (Bill To)</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Event Receipt Email</name>
+    <style>none</style>
+    <subject>{!bt_stripe__Sales_Document__c.conference360__Event_Name__c} Receipt</subject>
+    <textOnly>Hello {!bt_stripe__Sales_Document__c.conference360__Primary_Registrant_First_Name__c},
+
+Thank you for registering to :
+
+{!bt_stripe__Sales_Document__c.conference360__Event_Name__c}
+
+
+Order Total: {!bt_stripe__Sales_Document__c.Total_Amount__c}
+Date: {!bt_stripe__Sales_Document__c.conference360__Event_Start_Date__c} at {!bt_stripe__Sales_Document__c.conference360__Event_Start_Time__c} to {!bt_stripe__Sales_Document__c.conference360__Event_End_Date__c} at {!bt_stripe__Sales_Document__c.conference360__Event_End_Time__c}
+
+Location Name: {!bt_stripe__Sales_Document__c.conference360__Venue_Name__c}
+Address:
+{!bt_stripe__Sales_Document__c.conference360__Venue_Street__c}
+{!bt_stripe__Sales_Document__c.conference360__Venue_City__c}, {!bt_stripe__Sales_Document__c.conference360__Venue_State_Province__c},
+{!bt_stripe__Sales_Document__c.conference360__Venue_Postal_Code__c} {!bt_stripe__Sales_Document__c.conference360__Venue_Country__c}
+
+
+View Event Details›</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

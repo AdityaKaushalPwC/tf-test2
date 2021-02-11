@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>conference360__Provider__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Type of platform or mechanism that provides a guarantee for the identity of a user.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Type of platform or mechanism that provides a guarantee for the identity of a user.</inlineHelpText>
+    <label>Provider</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Email</fullName>
+                <default>false</default>
+                <label>Email</label>
+            </value>
+            <value>
+                <fullName>Phone</fullName>
+                <default>false</default>
+                <label>Phone</label>
+            </value>
+            <value>
+                <fullName>OAuth</fullName>
+                <default>false</default>
+                <label>OAuth</label>
+            </value>
+            <value>
+                <fullName>OAuth/Google</fullName>
+                <default>false</default>
+                <label>OAuth/Google</label>
+            </value>
+            <value>
+                <fullName>OAuth/Facebook</fullName>
+                <default>false</default>
+                <label>OAuth/Facebook</label>
+            </value>
+            <value>
+                <fullName>OAuth/LinkedIn</fullName>
+                <default>false</default>
+                <label>OAuth/LinkedIn</label>
+            </value>
+            <value>
+                <fullName>Device</fullName>
+                <default>false</default>
+                <label>Device</label>
+            </value>
+            <value>
+                <fullName>Biometric</fullName>
+                <default>false</default>
+                <label>Biometric</label>
+            </value>
+            <value>
+                <fullName>Biometric/iOS</fullName>
+                <default>false</default>
+                <label>Biometric/iOS</label>
+            </value>
+            <value>
+                <fullName>Biometric/Android</fullName>
+                <default>false</default>
+                <label>Biometric/Android</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Device ID iOS</fullName>
+                <default>false</default>
+                <label>Device ID iOS</label>
+            </value>
+            <value>
+                <fullName>Device ID Android</fullName>
+                <default>false</default>
+                <label>Device ID Android</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

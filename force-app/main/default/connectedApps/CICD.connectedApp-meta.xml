@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>ambuj.b.agrawal@pwc.com</contactEmail>
+    <label>CICD</label>
+    <oauthConfig>
+        <callbackUrl>http://localhost:1717/OauthRedirect</callbackUrl>
+        <certificate>MIIDgjCCAmoCCQDMoido5YbHCTANBgkqhkiG9w0BAQsFADCBgjELMAkGA1UEBhMCSU4xDjAMBgNVBAgTBURlbGhpMQ4wDAYDVQQHEwVEZWxoaTEMMAoGA1UEChMDUHdDMQ0wCwYDVQQLEwRTRkRDMQ4wDAYDVQQDEwVBbWJ1ajEmMCQGCSqGSIb3DQEJARYXYW1idWouYi5hZ3Jhd2FsQHB3Yy5jb20wHhcNMjEwMjEwMDk0MDM3WhcNMjIwMjEwMDk0MDM3WjCBgjELMAkGA1UEBhMCSU4xDjAMBgNVBAgTBURlbGhpMQ4wDAYDVQQHEwVEZWxoaTEMMAoGA1UEChMDUHdDMQ0wCwYDVQQLEwRTRkRDMQ4wDAYDVQQDEwVBbWJ1ajEmMCQGCSqGSIb3DQEJARYXYW1idWouYi5hZ3Jhd2FsQHB3Yy5jb20wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDuzp95TXXf4Jmdk8bq+bK8YrSbsj0kD7zGyxiXxmxWTOoDSV5CzTt/c5tSxbiKNK0/gq0N0ETeJHRO4L4lqJUYU2fbeeRBN83/tlEMJn5G/lrInbQyUxurSZfJedR6IAaE8F4JIIRR2KYErRycED+GoZYUrFLhVyC0eDrH+1GmX1eqpFHEKth6VeA/FgR6nBZbLd628zGkcgo8ZcBe9a6DhNUchwUqvdE0ixxZLKVTVfD8HrFGlyXdcHDrowzMlkTE2kE5ZQ7Pg46HmVxQMuwoWcN6+duIhK+Sf0l/8vV+MH3UwPKlPtW+gBs+c9YDY6AUFTRPG+/ehgAHwWAL34mvAgMBAAEwDQYJKoZIhvcNAQELBQADggEBANCEQCc9UrpFzskikR1418f18+0iI5Q025iX50w1vAvPVKtb+KPMrJwmQGPoZo8gl1etAKCUnaD6NV/CuO6Dl078Va5H0BbgXFCw18Kvir94zHcLg/Zk/c7wZ1ylV/GkZs8/xTbJCP9CYW6Yr7ycr8TucrXIxZCuu9CZ70ug8e3GVb01Mi330Q98JkIVv7xI5OyS7xYL04dn7a7XJUV0WBg71xnuUjKOY01H84onazzvOZmvEXC5biKho6QtFloByfbOZ+pbiA0rosLBzGH8uKj1kM58mfGcluWmUvCbb32cqI8TCJILOMCWbipYq+HNCN3E4CeTfIJpmNwkmfwPMCs=</certificate>
+        <consumerKey>3MVG9LlLrkcRhGHYwv9IZnvX27TMtEX7ex.T.sLtJzmNiYOFq8cCG5xs3irJpRO8ZzBXTwBvEcUyGpY8aZFML</consumerKey>
+        <isAdminApproved>true</isAdminApproved>
+        <scopes>Basic</scopes>
+        <scopes>Api</scopes>
+        <scopes>Web</scopes>
+        <scopes>RefreshToken</scopes>
+    </oauthConfig>
+    <profileName>System Administrator</profileName>
+    <profileName>System Administrator</profileName>
+</ConnectedApp>

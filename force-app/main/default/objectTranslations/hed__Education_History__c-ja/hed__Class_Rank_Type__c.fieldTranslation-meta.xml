@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>クラス順位がどのように決定されたかを追跡します。たとえば、[加重あり] または [加重なし] のスケールが使用されます。</help>
+    <label><!-- Class Rank Type --></label>
+    <name>hed__Class_Rank_Type__c</name>
+    <picklistValues>
+        <masterLabel>Unweighted</masterLabel>
+        <translation>加重なし</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Weighted</masterLabel>
+        <translation>加重あり</translation>
+    </picklistValues>
+</CustomFieldTranslation>

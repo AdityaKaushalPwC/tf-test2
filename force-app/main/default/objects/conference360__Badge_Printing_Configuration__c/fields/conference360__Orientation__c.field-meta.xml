@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>conference360__Orientation__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The orientation to print the badge on.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The orientation to print the badge on.</inlineHelpText>
+    <label>Orientation</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Landscape</fullName>
+                <default>false</default>
+                <label>Landscape</label>
+            </value>
+            <value>
+                <fullName>Portrait</fullName>
+                <default>false</default>
+                <label>Portrait</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

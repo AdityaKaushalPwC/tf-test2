@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Der Name des Kurses, bei dem der Teilnehmer sich verspätet oder gefehlt hat (schreibgeschützt).</help>
+    <label><!-- Course Name --></label>
+    <name>hed__Course_Name__c</name>
+</CustomFieldTranslation>

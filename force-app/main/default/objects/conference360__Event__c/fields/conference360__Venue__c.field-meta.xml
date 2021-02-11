@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>conference360__Venue__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>Define the venue from a related Account. If that Account has a billing address, the address will be automatically added to the Venue fields below.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Define the venue from a related Account. If that Account has a billing address, the address will be automatically added to the Venue fields below.</inlineHelpText>
+    <label>Venue</label>
+    <referenceTo>Account</referenceTo>
+    <relationshipLabel>Events</relationshipLabel>
+    <relationshipName>Events</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

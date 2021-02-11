@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Course Connection --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Course Connection --></value>
+    </caseValues>
+    <gender><!-- Neuter --></gender>
+    <nameFieldLabel><!-- Course Connection ID --></nameFieldLabel>
+    <recordTypes>
+        <description>Een standaardrecordtype dat voor tests wordt gebruikt. Dit recordtype moet alleen zichtbaar en ingeschakeld zijn voor systeembeheerders.</description>
+        <label>Standaard</label>
+        <name>Default</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Een cursusverbinding voor een staflid</description>
+        <label>Staflid</label>
+        <name>Faculty</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Een cursusverbinding voor een student</description>
+        <label>Student</label>
+        <name>Student</name>
+    </recordTypes>
+</CustomObjectTranslation>

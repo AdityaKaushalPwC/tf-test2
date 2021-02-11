@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>此為顯示在貴組織的 Salesforce「文件」索引標籤中的 PDF 文件清單。若要使用 DocuSign 傳送，您必須新增一個 PDF 檔案到 Salesforce「文件」索引標籤的任一資料夾中。若要使用其他格式傳送，請按一下「進一步瞭解」。</help>
+    <label><!-- Document Name --></label>
+    <name>dsfs__Document_Name__c</name>
+</CustomFieldTranslation>

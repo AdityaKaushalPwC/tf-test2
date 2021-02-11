@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Edite esta mensagem de texto de e-mail (até 2.000 caracteres) e ela aparecerá na notificação a ser assinada para seu destinatário DocuSign.</help>
+    <label><!-- DocuSign Email Message --></label>
+    <name>dsfs__DocuSign_Email_Message__c</name>
+</CustomFieldTranslation>

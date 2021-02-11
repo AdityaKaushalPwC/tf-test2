@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <webLinks>
+        <label><!-- Accept_Dispute --></label>
+        <name>bt_stripe__Accept_Dispute</name>
+    </webLinks>
+</CustomObjectTranslation>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>この要件の対象のプログラムプラン。プラン要件を親プラン要件の下でまとめている場合は、ベストプラクティスとして、最上位のプラン要件のみをプログラムプランにリンクすることをお勧めします。</help>
+    <label><!-- Program Plan --></label>
+    <name>hed__Program_Plan__c</name>
+    <relationshipLabel><!-- Plan Requirements --></relationshipLabel>
+</CustomFieldTranslation>

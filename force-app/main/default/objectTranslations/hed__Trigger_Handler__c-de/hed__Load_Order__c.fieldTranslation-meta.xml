@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Die Reihenfolge, in der diese Klasse ausgeführt werden sollte. Die Reihenfolge steht in Beziehung zu anderen Auslösern für dasselbe Objekt mit denselben Auslöseraktionen, z. B. alle Auslöser vom Typ &quot;before insert&quot; für Account.</help>
+    <label><!-- Load Order --></label>
+    <name>hed__Load_Order__c</name>
+</CustomFieldTranslation>

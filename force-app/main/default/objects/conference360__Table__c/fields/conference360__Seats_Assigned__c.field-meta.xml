@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>conference360__Seats_Assigned__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The number of seats assigned for the related Table, set and updated automatically when creating and updating Seats.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The number of seats assigned for the related Table, set and updated automatically when creating and updating Seats.</inlineHelpText>
+    <label>Seats Assigned</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

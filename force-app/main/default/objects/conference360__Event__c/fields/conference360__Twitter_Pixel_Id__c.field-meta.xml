@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>conference360__Twitter_Pixel_Id__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Set this field if you want to track the Event with Twitter.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Set this field if you want to track the Event with Twitter.</inlineHelpText>
+    <label>Twitter Pixel Id</label>
+    <length>255</length>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

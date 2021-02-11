@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>El caso que representa el evento del que se está informando.</help>
+    <label><!-- Case --></label>
+    <name>hed__Case__c</name>
+    <relationshipLabel><!-- Behavior Involvements --></relationshipLabel>
+</CustomFieldTranslation>

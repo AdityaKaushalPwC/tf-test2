@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>conference360__Hotel_Room_Block__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>Relate this Hotel Booking to a Hotel Room Block.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Relate this Hotel Booking to a Hotel Room Block.</inlineHelpText>
+    <label>Hotel Room Block</label>
+    <referenceTo>conference360__Hotel_Room_Block__c</referenceTo>
+    <relationshipLabel>Hotel Bookings</relationshipLabel>
+    <relationshipName>Hotel_Bookings</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

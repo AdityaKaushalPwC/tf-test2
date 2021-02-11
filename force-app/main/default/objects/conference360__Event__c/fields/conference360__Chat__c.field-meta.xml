@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>conference360__Chat__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <inlineHelpText>Enable the chat feature for this event.</inlineHelpText>
+    <label>Chat</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>On</fullName>
+                <default>false</default>
+                <label>On</label>
+            </value>
+            <value>
+                <fullName>Off</fullName>
+                <default>true</default>
+                <label>Off</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

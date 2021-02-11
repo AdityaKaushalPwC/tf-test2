@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>이 DocuSign 트랜잭션을 생성한 Salesforce 사용자의 이름입니다. </help>
+    <label><!-- Sender --></label>
+    <name>dsfs__Sender__c</name>
+</CustomFieldTranslation>

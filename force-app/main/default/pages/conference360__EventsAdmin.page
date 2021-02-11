@@ -1,0 +1,17 @@
+<apex:page controller="conference360.EventAdminPageController" showHeader="true" standardStylesheets="false" sidebar="true" applyHtmlTag="true" applyBodyTag="false" docType="html-5.0">
+
+	<apex:pageMessages />
+	<apex:includeLightning />
+	<div id="lDiv"/>
+	<script>
+	var nameSpacePrefix = '{!JSENCODE(nameSpacePrefix)}';
+	if (nameSpacePrefix == '') {
+		nameSpacePrefix = 'c';
+	}
+	$Lightning.use(nameSpacePrefix + ':EventsAdminLtngApp', function() {
+		$Lightning.createComponent(nameSpacePrefix + ':EventsAdmin', { }, 'lDiv', function(cmp) { 
+			
+		});
+	});
+	</script>
+</apex:page>

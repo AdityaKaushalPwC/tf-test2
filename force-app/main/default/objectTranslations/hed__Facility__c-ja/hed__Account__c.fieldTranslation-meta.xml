@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>この施設の責任を負う団体 (大学の学部など)。</help>
+    <label><!-- Account --></label>
+    <name>hed__Account__c</name>
+    <relationshipLabel><!-- Facilities --></relationshipLabel>
+</CustomFieldTranslation>

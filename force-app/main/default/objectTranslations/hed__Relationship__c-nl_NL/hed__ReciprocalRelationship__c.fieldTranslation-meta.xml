@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Opzoekopdracht naar de gerelateerde wederzijdserelatierecord. Dit veld wordt automatisch ingevuld. Als u het veld handmatig bijwerkt, kan dat fouten veroorzaken.</help>
+    <label><!-- Reciprocal Relationship --></label>
+    <name>hed__ReciprocalRelationship__c</name>
+    <relationshipLabel><!-- Relationships --></relationshipLabel>
+</CustomFieldTranslation>

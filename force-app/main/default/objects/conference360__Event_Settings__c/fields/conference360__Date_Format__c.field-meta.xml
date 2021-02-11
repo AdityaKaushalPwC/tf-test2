@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>conference360__Date_Format__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <inlineHelpText>Set the date format for the event.</inlineHelpText>
+    <label>Date Format</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>MM/DD/YY</fullName>
+                <default>false</default>
+                <label>MM/DD/YY</label>
+            </value>
+            <value>
+                <fullName>MM/DD/YYYY</fullName>
+                <default>false</default>
+                <label>MM/DD/YYYY</label>
+            </value>
+            <value>
+                <fullName>DD/MM/YY</fullName>
+                <default>false</default>
+                <label>DD/MM/YY</label>
+            </value>
+            <value>
+                <fullName>DD/MM/YYYY</fullName>
+                <default>false</default>
+                <label>DD/MM/YYYY</label>
+            </value>
+            <value>
+                <fullName>YY/MM/DD</fullName>
+                <default>false</default>
+                <label>YY/MM/DD</label>
+            </value>
+            <value>
+                <fullName>YYYY/MM/DD</fullName>
+                <default>false</default>
+                <label>YYYY/MM/DD</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

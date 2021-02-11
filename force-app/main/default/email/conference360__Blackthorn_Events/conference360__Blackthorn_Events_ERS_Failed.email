@@ -1,0 +1,8 @@
+Hi,
+<br/><br/>
+Please review the record below: 
+<br/><br/>
+Name - {!conference360__Event_Registration_Submission__c.Name}
+<br/><br/>
+Error - <br/>
+{!conference360__Event_Registration_Submission__c.conference360__Error_Message__c}

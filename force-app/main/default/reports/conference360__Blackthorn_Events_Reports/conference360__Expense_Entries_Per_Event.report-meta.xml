@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>CUST_NAME</field>
+    </columns>
+    <columns>
+        <field>FK_NAME</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>conference360__Expense_Entry__c.conference360__Amount__c</field>
+    </columns>
+    <columns>
+        <field>conference360__Expense_Entry__c.conference360__Subcategory__c</field>
+    </columns>
+    <columns>
+        <field>conference360__Expense_Entry__c.conference360__Description__c</field>
+    </columns>
+    <columns>
+        <field>conference360__Expense_Entry__c.conference360__Vendor_Account__c</field>
+    </columns>
+    <columns>
+        <field>conference360__Expense_Entry__c.conference360__Transaction_Date__c</field>
+    </columns>
+    <columns>
+        <field>conference360__Expense_Entry__c.conference360__Budget_Expense__c</field>
+    </columns>
+    <description>All Expense Entries to be launched from an Event record.</description>
+    <filter>
+        <criteriaItems>
+            <column>FK_CUSTENT_ID</column>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value/>
+        </criteriaItems>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>conference360__Expense_Entry__c.conference360__Category__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Expense Entries - Per Event</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CustomEntity$conference360__Expense_Entry__c@conference360__Expense_Entry__c.conference360__Event__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>conference360__Expense_Entry__c.conference360__Transaction_Date__c</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>conference360__Event__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>When an attendee views the recurring event, the details from this event will be shown, such as showing the overview, image, speakers, etc. This event is the event from which the other events will be cloned/recurring from.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>When an attendee views the recurring event, the details from this event will be shown, such as showing the overview, image, speakers, etc. This event is the event from which the other events will be cloned/recurring from.</inlineHelpText>
+    <label>Event (Template Master)</label>
+    <referenceTo>conference360__Event__c</referenceTo>
+    <relationshipLabel>Recurring Event</relationshipLabel>
+    <relationshipName>Recurring_Event</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

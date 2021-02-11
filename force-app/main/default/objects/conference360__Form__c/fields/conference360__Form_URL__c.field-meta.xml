@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>conference360__Form_URL__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <formula>BLANKVALUE($Setup.conference360__Blackthorn_Events_Settings__c.conference360__Platform_Domain__c, &apos;https://events.blackthorn.io&apos;) &amp; &apos;/&apos; &amp; $Organization.Id &amp; &apos;/s/&apos; &amp; conference360__Encrypted_ID__c</formula>
+    <inlineHelpText>Public Url to this Form/Survey</inlineHelpText>
+    <label>Form URL</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

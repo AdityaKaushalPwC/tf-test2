@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>conference360__Manage_Keywords</fullName>
+    <availability>online</availability>
+    <description>Manage the keywords for the event</description>
+    <displayType>button</displayType>
+    <height>600</height>
+    <linkType>page</linkType>
+    <masterLabel>Manage Keywords</masterLabel>
+    <openType>sidebar</openType>
+    <page>conference360__EventKeywordsManage</page>
+    <protected>false</protected>
+</WebLink>

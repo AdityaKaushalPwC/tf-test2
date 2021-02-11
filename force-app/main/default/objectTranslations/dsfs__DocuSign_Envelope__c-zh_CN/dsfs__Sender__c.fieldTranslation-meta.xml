@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>这是创建此 DocuSign 事务的 Salesforce 用户的姓名。</help>
+    <label><!-- Sender --></label>
+    <name>dsfs__Sender__c</name>
+</CustomFieldTranslation>

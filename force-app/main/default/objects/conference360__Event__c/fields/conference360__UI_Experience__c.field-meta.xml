@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>conference360__UI_Experience__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>UI Experience</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Oak (Tabbed)</fullName>
+                <default>false</default>
+                <label>Oak (Tabbed)</label>
+            </value>
+            <value>
+                <fullName>Ash (Simple)</fullName>
+                <default>false</default>
+                <label>Ash (Simple)</label>
+            </value>
+            <value>
+                <fullName>Ash</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Ash</label>
+            </value>
+            <value>
+                <fullName>Oak</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Oak</label>
+            </value>
+            <value>
+                <fullName>Redwood (Smart)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Redwood (Smart)</label>
+            </value>
+            <value>
+                <fullName>Simple</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Simple</label>
+            </value>
+            <value>
+                <fullName>Tabbed</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Tabbed</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

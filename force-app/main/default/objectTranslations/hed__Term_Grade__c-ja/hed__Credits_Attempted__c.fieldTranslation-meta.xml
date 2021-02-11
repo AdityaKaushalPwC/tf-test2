@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>この学期で取得可能なこの科目の単位数。</help>
+    <label><!-- Credits Attempted --></label>
+    <name>hed__Credits_Attempted__c</name>
+</CustomFieldTranslation>

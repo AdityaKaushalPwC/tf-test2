@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Indique comment la moyenne pondérée cumulative a été déterminée, par exemple en utilisant une échelle pondérée ou non pondérée.</help>
+    <label><!-- GPA Scale Type --></label>
+    <name>hed__GPA_Scale_Type__c</name>
+    <picklistValues>
+        <masterLabel>Unweighted</masterLabel>
+        <translation>Non pondérée</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Weighted</masterLabel>
+        <translation>Pondérée</translation>
+    </picklistValues>
+</CustomFieldTranslation>

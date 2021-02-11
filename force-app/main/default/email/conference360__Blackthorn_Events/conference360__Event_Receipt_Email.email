@@ -1,0 +1,183 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <style>
+    
+        #outlook a {padding:0;}     
+        body{width:100% !important; -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; margin:0; padding:0;}     
+        .ReadMsgBody {width: 100%;}
+        .ExternalClass {width:100%;} 
+        .backgroundTable {margin:0 auto; padding:0; width:100%;!important;} 
+        table td {border-collapse: collapse;}
+        .ExternalClass * {line-height: 115%;}
+        
+        
+        /* End reset */
+        @media screen and (max-width: 630px){
+            
+            *[class="container"] { width: 320px !important; padding:0px !important}                                 
+            *[class="mobile-column"] {display: block;}
+            *[class="mob-column"] {float: none !important;width: 100% !important;}         
+            *[class="mobile-padding"] {padding-left:10px !important;padding-right:10px !important;}         
+            *[class="hide"] {display:none !important;}          
+            *[class="100p"] {width:100% !important; height:auto !important;}            
+      *[class="mobile-column-blog"] {padding-bottom:20px;display:block;}
+                    
+        
+        }
+    @media screen and (max-width: 450px){
+      *[class="mobhide"] {display:none !important;}    
+      *[class="font-bump"] {font-size:16px !important;}
+      *[class="link-bump"] {font-size:21px !important;}
+      *[class="100p-mob"] {width:100% !important; height:auto !important;}
+    }
+            
+        
+    </style>
+    
+   
+</head>
+
+
+
+<body style="padding:0; margin:0;font-family: Arial, Helvetica, sans-serif; background-color: #eee;" bgcolor="#FAFAF6" > 
+
+
+
+<table  cellpadding="0" cellspacing="0" class="mobile-padding" bgcolor="#F8F8FA" style="border: 1px solid #efefef; line-height: 135%;-webkit-box-shadow: -5px 16px 72px -8px rgba(143,143,143,1);
+-moz-box-shadow: -5px 16px 72px -8px rgba(143,143,143,1);
+box-shadow: -5px 16px 72px -8px rgba(143,143,143,1);" align="center"  width="80%">
+        <tr>
+            <td align="center" valign="top">
+                
+
+                <table border="0" cellpadding="0" cellspacing="0" class="100p" width="640">
+                    <tr>
+                        <td valign="top" align="center">
+                             <p style="font-size: 18px; margin: 50px 0 0 0;">Hello {!bt_stripe__Sales_Document__c.conference360__Primary_Registrant_First_Name__c},</p>
+                              <p style="font-size: 16px; margin: 0px; margin-top:30px;">Thank you for registering for:</p>
+                              <p style="font-size: 16px; margin: 0px;
+                margin-top:20px; color: #4CAEFB;text-decoration: none;">{!bt_stripe__Sales_Document__c.conference360__Event_Name__c}</p>
+                        </td>
+                    </tr>
+                </table>
+
+               
+
+                <table border="0" cellpadding="0" cellspacing="0" class="100p" width="640">
+                    <tr>
+                        <td height="20"> <p style="margin-top:30px;width:100%; border-bottom: 1px solid #cccccc; margin-bottom: 25px;"></p></td>
+                    </tr>
+                </table>
+
+                <table border="0" cellpadding="0" cellspacing="0" class="100p" width="640">
+                    <tr>
+                        <td align="center" valign="top">
+                            <table border="0" cellpadding="0" cellspacing="0" class="100p" width="640">
+                                <tr>
+                                    <td align="left" class="mobile-column" valign="top">
+                                        <table align="left" border="0" cellpadding="0" cellspacing="0" class="mob-column" width="20">
+                                            <tr>
+                                                <td align="left" height="20">&nbsp;</td>
+                                            </tr>
+                                        </table>
+                                    </td>
+
+                                    <td align="left" class="mobile-column-blog" valign="top">
+                                        <table align="left" border="0" cellspacing="0" class="mob-column"  width="310">
+                                            <tr>
+                                                <td valign="top">
+                                                    <table border="0" cellpadding="0" cellspacing="0">
+                                                        
+
+                                                        <tr>
+                                                            <td valign="top">
+                                                                <table border="0" cellpadding="0" cellspacing="0">
+                                                                    <tr>
+                                                                        <td align="left" colspan="3" style="font-size:14px; color:#272425; font-family:Arial, Helvetica, sans-serif;" class="font-bump">
+
+<table border="0" cellpadding="5" cellspacing="5">
+    <tr>
+        <td valign="top"><img style='display:block; width:16px;height:16px;'src="https://firebasestorage.googleapis.com/v0/b/events-contact-email.appspot.com/o/images%2Ficons%2Fticket.png?alt=media&token=e240c4b0-7ca9-4a08-bc38-0e144564ee0a" /></td>
+        <td valign="top"><b>Order Total:</b><br/> {!bt_stripe__Sales_Document__c.bt_stripe__Total_Amount__c} {!bt_stripe__Sales_Document__c.bt_stripe__Currency_ISO__c}</td>
+    </tr>
+
+  
+                                            
+
+    <tr>
+        <td valign="top"><img style='display:block; width:16px;height:16px;'src="https://firebasestorage.googleapis.com/v0/b/events-contact-email.appspot.com/o/images%2Ficons%2Fclock.png?alt=media&token=89aa3dcb-931c-4d0e-8957-707ac54ec79b" /></td>
+        <td valign="top"><b>Date:</b><br/>{!bt_stripe__Sales_Document__c.conference360__Event_Start_Date__c} at {!bt_stripe__Sales_Document__c.conference360__Event_Start_Time__c} to {!bt_stripe__Sales_Document__c.conference360__Event_End_Date__c} at {!bt_stripe__Sales_Document__c.conference360__Event_End_Time__c}</td>
+    </tr>
+ 
+    <tr>                                                                        
+        <td valign="top"><img style='display:block; width:16px;height:16px;' src="https://firebasestorage.googleapis.com/v0/b/events-contact-email.appspot.com/o/images%2Ficons%2Flocation.png?alt=media&token=9216a9eb-a83e-4eb7-8ab4-530c2febda23" /> 
+        </td>
+        <td><b>Location:</b><br/>{!bt_stripe__Sales_Document__c.conference360__Venue_Name__c} <br/>
+{!bt_stripe__Sales_Document__c.conference360__Venue_Street__c}<br/>
+{!bt_stripe__Sales_Document__c.conference360__Venue_City__c}, {!bt_stripe__Sales_Document__c.conference360__Venue_State_Province__c}, <br/>{!bt_stripe__Sales_Document__c.conference360__Venue_Postal_Code__c}
+{!bt_stripe__Sales_Document__c.conference360__Venue_Country__c}<br/><br/>
+        </td>
+    </tr>
+</table>
+                                                                        </td>
+                                                                    </tr>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+
+
+                <table border="0" cellpadding="0" cellspacing="0" class="100p" width="640">
+                    <tr>
+                        <td valign="top" align="center">
+                            <a href="{!bt_stripe__Sales_Document__c.conference360__Event_URL__c}" style="color: #4CAEFB;  font-size: 14px; display: inline-block; text-decoration: none;">View event Details</a>
+                        </td>
+                    </tr>
+                </table>
+
+               <table border="0" cellpadding="0" cellspacing="0" class="100p" width="640">
+                    <tr>
+                        <td height="20"> <p style="width:100%; border-bottom: 1px solid #cccccc; "></p></td>
+                    </tr>
+                </table>
+
+                 <table border="0" cellpadding="0" cellspacing="0" class="100p" width="640">
+                    <tr>
+                        <td valign="top" align="center">
+                             <p style="font-size: 18px;margin-top: 0px;">Order Summary</p>
+                        </td>
+                    </tr>
+                     <tr>
+                        <td valign="top" align="center"><a href="{!bt_stripe__Sales_Document__c.bt_stripe__DocumentLink__c}" style="color: #4CAEFB;  font-size: 14px; display: inline-block; text-decoration: none;">View the order summary</a>
+                        </td>
+                    </tr>
+                </table>
+
+            
+
+                 <table border="0" cellpadding="0" cellspacing="0" class="100p" width="640">
+                    <tr>
+                        <td height="20"></td>
+                    </tr>
+                </table>
+
+
+            </td>
+        </tr>
+    </table><br/>
+
+
+</body>
+</html>

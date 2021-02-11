@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>この取引が期限切れになるまでの日数を示します。</help>
+    <label><!-- Expire/Void Envelope in N day(s) --></label>
+    <name>dsfs__Days_before_Envelope_is_Expired_Voided__c</name>
+</CustomFieldTranslation>

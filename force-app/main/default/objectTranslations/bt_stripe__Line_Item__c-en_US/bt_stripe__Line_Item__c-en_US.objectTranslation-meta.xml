@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <recordTypes>
+        <description><!-- Deprecated - no longer used --></description>
+        <label><!-- Invoice --></label>
+        <name>bt_stripe__Invoice</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- use this for all non stripe line items for Invoice --></description>
+        <label><!-- Line Item --></label>
+        <name>bt_stripe__LineItem</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Deprecated - no longer used --></description>
+        <label><!-- Order --></label>
+        <name>bt_stripe__Order</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- use this with stripe invoice --></description>
+        <label><!-- Stripe Line Item --></label>
+        <name>bt_stripe__StripeLineItem</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- Price should be related to the Product. --></errorMessage>
+        <name>bt_stripe__Plan_Product_Match</name>
+    </validationRules>
+</CustomObjectTranslation>

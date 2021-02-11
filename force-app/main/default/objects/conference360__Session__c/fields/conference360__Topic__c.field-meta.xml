@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>conference360__Topic__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The topic of this Session.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The topic of this Session.</inlineHelpText>
+    <label>Topic</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Health &amp; Sciences</fullName>
+                <default>false</default>
+                <label>Health &amp; Sciences</label>
+            </value>
+            <value>
+                <fullName>Government</fullName>
+                <default>false</default>
+                <label>Government</label>
+            </value>
+            <value>
+                <fullName>Information Technology</fullName>
+                <default>false</default>
+                <label>Information Technology</label>
+            </value>
+            <value>
+                <fullName>High Tech</fullName>
+                <default>false</default>
+                <label>High Tech</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>conference360__Disable_Checkout_As_Someone_Else__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>If checked, the Someone else option won&apos;t be displayed in the Contact information section for checkout.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>If checked, the Someone else option won&apos;t be displayed in the Contact information section for checkout.</inlineHelpText>
+    <label>Disable Checkout As Someone Else</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

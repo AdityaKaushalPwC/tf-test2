@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Sélectionnez « En cours » si des étudiants sont inscrits ou peuvent s&apos;inscrire à ce plan de programme, sinon sélectionnez « Archivé ».</help>
+    <label><!-- Status --></label>
+    <name>hed__Status__c</name>
+    <picklistValues>
+        <masterLabel>Archived</masterLabel>
+        <translation>Archivé</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Current</masterLabel>
+        <translation>En cours</translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>conference360__SalesEndDateBeforeEventEnd</fullName>
+    <active>true</active>
+    <description>Validation for Event item Sales Start date/time to make sure it&apos;s before the Event Start date/time</description>
+    <errorConditionFormula>conference360__Sales_End_Date_Time_GMT__c &gt; conference360__Event__r.conference360__Event_End_Date_Time_GMT__c</errorConditionFormula>
+    <errorMessage>The Sales End Date/Time should be before the Event End Date</errorMessage>
+</ValidationRule>

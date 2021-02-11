@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>conference360__New_FE_Beta</fullName>
+    <availability>online</availability>
+    <displayType>button</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <height>600</height>
+    <linkType>url</linkType>
+    <masterLabel>New Form Element</masterLabel>
+    <openType>sidebar</openType>
+    <protected>false</protected>
+    <url>/apex/conference360__FormElementEdit?formId={!conference360__Form__c.Id}</url>
+</WebLink>

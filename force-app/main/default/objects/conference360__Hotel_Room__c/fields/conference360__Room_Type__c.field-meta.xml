@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>conference360__Room_Type__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The type of room. Single is either one bed or for 1-2 people, Double is either two beds or for 2-4 people, Triple is either three beds or for 3-6 people.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The type of room. Single is either one bed or for 1-2 people, Double is either two beds or for 2-4 people, Triple is either three beds or for 3-6 people.</inlineHelpText>
+    <label>Room Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Single</fullName>
+                <default>false</default>
+                <label>Single</label>
+            </value>
+            <value>
+                <fullName>Double</fullName>
+                <default>false</default>
+                <label>Double</label>
+            </value>
+            <value>
+                <fullName>Triple</fullName>
+                <default>false</default>
+                <label>Triple</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Kursverbindung</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Kursverbindungen</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value>Kursverbindung</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value>Kursverbindungen</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value>Kursverbindung</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value>Kursverbindungen</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Kursverbindung</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Kursverbindungen</value>
+    </caseValues>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Kursverbindungs-ID</nameFieldLabel>
+    <recordTypes>
+        <description>Ein Standard-Datensatztyp für den Einsatz beim Tests. Dieser Datensatztyp darf nur für Systemadministratoren aktiviert und sichtbar sein.</description>
+        <label>Standard</label>
+        <name>Default</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Eine Kursverbindung für Lehrpersonal</description>
+        <label>Lehrpersonal</label>
+        <name>Faculty</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Eine Kursverbindung für Schüler/Studenten</description>
+        <label>Schüler/Student</label>
+        <name>Student</name>
+    </recordTypes>
+</CustomObjectTranslation>

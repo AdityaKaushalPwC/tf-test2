@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>conference360__Category__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The Category for this Budget &amp; Expense record. &apos;Other&apos; entries or any custom-added entries will rollup (summarize) to the Event&apos;s Other Total fields.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The Category for this Budget &amp; Expense record. &apos;Other&apos; entries or any custom-added entries will rollup (summarize) to the Event&apos;s Other Total fields.</inlineHelpText>
+    <label>Category</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Audiovisual (AV)</fullName>
+                <default>false</default>
+                <label>Audiovisual (AV)</label>
+            </value>
+            <value>
+                <fullName>Catering (F&amp;B)</fullName>
+                <default>false</default>
+                <label>Catering (F&amp;B)</label>
+            </value>
+            <value>
+                <fullName>Decor</fullName>
+                <default>false</default>
+                <label>Decor</label>
+            </value>
+            <value>
+                <fullName>Entertainment</fullName>
+                <default>false</default>
+                <label>Entertainment</label>
+            </value>
+            <value>
+                <fullName>Marketing</fullName>
+                <default>false</default>
+                <label>Marketing</label>
+            </value>
+            <value>
+                <fullName>Marketing (Social)</fullName>
+                <default>false</default>
+                <label>Marketing (Social)</label>
+            </value>
+            <value>
+                <fullName>Production &amp; Staff</fullName>
+                <default>false</default>
+                <label>Production &amp; Staff</label>
+            </value>
+            <value>
+                <fullName>Site Rental</fullName>
+                <default>false</default>
+                <label>Site Rental</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Contingency</fullName>
+                <default>false</default>
+                <label>Contingency</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

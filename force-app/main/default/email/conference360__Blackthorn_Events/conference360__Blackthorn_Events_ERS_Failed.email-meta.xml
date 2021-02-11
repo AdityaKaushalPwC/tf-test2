@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Event Registration Submission record failed to process</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Blackthorn | Events ERS Failed</name>
+    <style>none</style>
+    <subject>Event Registration Submission record failed to process</subject>
+    <textOnly>Hi,  
+
+Please review the record below: 
+
+ Name - {!conference360__Event_Registration_Submission__c.Name}  
+
+
+Error - {!conference360__Event_Registration_Submission__c.conference360__Error_Message__c}</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

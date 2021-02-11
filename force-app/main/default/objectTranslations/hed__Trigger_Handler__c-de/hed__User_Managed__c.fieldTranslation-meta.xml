@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Falls ausgewählt, übertragen wir keine Updates mehr per Push an diese Auslöserverarbeitung. Wählen Sie diese Option aus, wenn Sie Änderungen vorgenommen haben, die nicht überschrieben werden sollen.</help>
+    <label><!-- User Managed --></label>
+    <name>hed__User_Managed__c</name>
+</CustomFieldTranslation>

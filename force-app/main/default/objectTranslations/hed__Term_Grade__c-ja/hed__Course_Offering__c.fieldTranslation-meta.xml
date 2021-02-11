@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>記録される評価に関連付けられた開講科目。空白のままにした場合、保存時に有効な履修科目から開講科目が自動入力されます。</help>
+    <label><!-- Course Offering --></label>
+    <name>hed__Course_Offering__c</name>
+    <relationshipLabel><!-- Term Grades --></relationshipLabel>
+</CustomFieldTranslation>

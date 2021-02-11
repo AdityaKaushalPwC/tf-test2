@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Blackthorn | Payments Text Receipt</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Receipt (Text)</name>
+    <style>none</style>
+    <subject>Purchase for: {!bt_stripe__Transaction__c.bt_stripe__Description__c}</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

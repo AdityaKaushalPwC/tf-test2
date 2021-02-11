@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Este es el nombre del usuario de Salesforce que creó esta transacción de DocuSign.</help>
+    <label><!-- Sender --></label>
+    <name>dsfs__Sender__c</name>
+</CustomFieldTranslation>

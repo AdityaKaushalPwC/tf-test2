@@ -1,0 +1,11 @@
+<apex:page standardController="conference360__Event__c" extensions="conference360.EventsEmebeddedComponentCtrl">
+	<style>
+	#bt-embed {
+	width: 100%;
+	min-height: 900px;
+	border: none;
+	}
+	</style>
+
+	<iframe id="bt-embed" src="{!previewURL}"/>
+</apex:page>

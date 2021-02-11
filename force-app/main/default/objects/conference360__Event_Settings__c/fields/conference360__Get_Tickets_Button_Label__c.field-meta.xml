@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>conference360__Get_Tickets_Button_Label__c</fullName>
+    <deprecated>false</deprecated>
+    <description>On the Event Checkout, you can override the default button action to get tickets with values such as Register, Apply, Reserve, Checkout, Get Tickets, etc.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>On the Event Checkout, you can override the default button action to get tickets with values such as Register, Apply, Reserve, Checkout, Get Tickets, etc.</inlineHelpText>
+    <label>Get Tickets Button Label</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

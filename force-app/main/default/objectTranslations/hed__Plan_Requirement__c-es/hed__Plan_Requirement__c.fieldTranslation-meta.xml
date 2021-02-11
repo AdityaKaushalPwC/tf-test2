@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Si el requisito de plan es uno de los múltiples requisitos o múltiples niveles de requisitos, especifica el requisito del plan principal. Utilice este campo para agrupar una lista de cursos opcionales que satisfacen un requisito genérico.</help>
+    <label><!-- Parent Plan Requirement --></label>
+    <name>hed__Plan_Requirement__c</name>
+    <relationshipLabel><!-- Plan Requirements --></relationshipLabel>
+</CustomFieldTranslation>

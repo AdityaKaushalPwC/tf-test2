@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>DOCUSIGN 서명인 종류</help>
+    <label><!-- DocuSign Signer Type --></label>
+    <name>dsfs__DocuSign_Signer_Type__c</name>
+    <picklistValues>
+        <masterLabel>Address recipients</masterLabel>
+        <translation>수신인 주소 지정</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Carbon Copy</masterLabel>
+        <translation>참조</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Certified Delivery</masterLabel>
+        <translation>전달 보장</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Manage envelope</masterLabel>
+        <translation>봉투 관리</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sign in person</masterLabel>
+        <translation>직접 서명</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Signer</masterLabel>
+        <translation>서명인</translation>
+    </picklistValues>
+</CustomFieldTranslation>

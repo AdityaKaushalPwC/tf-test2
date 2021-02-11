@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Das Jahr, in dem der Student dieses Programm voraussichtlich abschließen wird.</help>
+    <label><!-- Class Year --></label>
+    <name>hed__Graduation_Year__c</name>
+</CustomFieldTranslation>

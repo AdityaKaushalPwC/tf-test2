@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Le type de période de notation à laquelle cette note correspond, par exemple Note intermédiaire, Note finale, Note à l&apos;examen, Période de notation.</help>
+    <label><!-- Term Grade Type --></label>
+    <name>hed__Term_Grade_Type__c</name>
+    <picklistValues>
+        <masterLabel>Exam Grade</masterLabel>
+        <translation>Note à l&apos;examen</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Final Grade</masterLabel>
+        <translation>Note finale</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Grading Period</masterLabel>
+        <translation>Période de notation</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Mid-Term Grade</masterLabel>
+        <translation>Note intermédiaire</translation>
+    </picklistValues>
+</CustomFieldTranslation>

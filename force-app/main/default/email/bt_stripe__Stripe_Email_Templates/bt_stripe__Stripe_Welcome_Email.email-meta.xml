@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>P360 Welcome Email</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Stripe Welcome Email</name>
+    <style>none</style>
+    <subject>Thank you for installing payment360 for Salesforce</subject>
+    <textOnly>Hi {!User.FirstName},
+
+Thank you for installing payment360!
+
+SUPPORT:
+
+For installation and application support, please review our knowledge base http://docs.payment360.io/. There is also a setup wizard within the application. Simple assign the Permission Set for the payment360 admin to yourself, then change the App you&apos;re viewing to the payment360 Admin app.
+
+Our application is free, so we do our best to provide as much documentation for self help through our support site. If you&apos;re unable to find the answer you&apos;re looking for on our support site, feel free to email us at support+payment360@blackthorn.io to create a case with us and we&apos;ll help you out!
+
+Our basic support response rate is three business days to begin new cases. If you&apos;re looking for a more aggressive support SLA, please reply to this email and let us know as we have more aggressive plans available.
+
+CUSTOMIZATION:
+
+If you&apos;re looking for someone to customize payment360 for you, please emails us at support+payment360@blackthorn.io with what you&apos;re looking to achieve and we&apos;ll guide you from there!
+
+Thanks! 
+
+payment360 Support Team</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

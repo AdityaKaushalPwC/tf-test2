@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Le programme, le département ou l&apos;établissement auquel cette période scolaire s&apos;applique. Sélectionnez le compte qui représente votre établissement d&apos;enseignement si les périodes sont cohérentes dans tous les programmes et départements de votre école.</help>
+    <label><!-- Account --></label>
+    <name>hed__Account__c</name>
+    <relationshipLabel><!-- Terms --></relationshipLabel>
+</CustomFieldTranslation>

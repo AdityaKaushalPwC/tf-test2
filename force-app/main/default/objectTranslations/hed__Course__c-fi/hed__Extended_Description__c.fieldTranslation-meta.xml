@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Käytä tätä kenttää kuvaamaan kurssia enintään 131 000 merkillä. Tämä kenttä korvaa Kuvaus-kentän.</help>
+    <label><!-- Extended Description --></label>
+    <name>hed__Extended_Description__c</name>
+</CustomFieldTranslation>

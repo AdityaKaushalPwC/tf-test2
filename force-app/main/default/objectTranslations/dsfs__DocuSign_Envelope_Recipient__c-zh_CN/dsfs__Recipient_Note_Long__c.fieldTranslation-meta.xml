@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>收件人注意事项</help>
+    <label><!-- Recipient Note --></label>
+    <name>dsfs__Recipient_Note_Long__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Das Studienprogramm dieses Programmplans, z. B. Bachelor in Philosophie.</help>
+    <label><!-- Account --></label>
+    <name>hed__Account__c</name>
+    <relationshipLabel><!-- Program Plans --></relationshipLabel>
+</CustomFieldTranslation>

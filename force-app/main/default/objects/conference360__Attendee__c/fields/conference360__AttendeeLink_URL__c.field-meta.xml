@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>conference360__AttendeeLink_URL__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Unique attendee link URL.</description>
+    <externalId>false</externalId>
+    <formula>BLANKVALUE($Setup.conference360__Blackthorn_Events_Settings__c.conference360__Platform_Domain__c, &apos;https://events.blackthorn.io/&apos;) &amp; &apos;/&apos; &amp; $Organization.Id &amp; &apos;/a/&apos; &amp; conference360__Key_Encrypted__c</formula>
+    <inlineHelpText>Unique attendee link URL.</inlineHelpText>
+    <label>AttendeeLink URL</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

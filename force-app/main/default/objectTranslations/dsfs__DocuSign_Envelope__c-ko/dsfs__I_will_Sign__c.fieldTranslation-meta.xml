@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>이 문서에서 수신인/서명인으로 추가되고자 하면 이 확인란을 선택합니다.  이 확인란을 선택하지 않으면 연락처가 DocuSign으로 서명되었지만 직접 서명할 수는 없다는 알림을 받게 됩니다. </help>
+    <label><!-- I will also Sign --></label>
+    <name>dsfs__I_will_Sign__c</name>
+</CustomFieldTranslation>

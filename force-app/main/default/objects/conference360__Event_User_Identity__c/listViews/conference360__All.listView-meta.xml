@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>conference360__All</fullName>
+    <columns>NAME</columns>
+    <columns>conference360__Contact__c</columns>
+    <columns>conference360__Description__c</columns>
+    <columns>conference360__Expiration_Date__c</columns>
+    <columns>conference360__Expired__c</columns>
+    <columns>conference360__Provider__c</columns>
+    <columns>conference360__Provider_ID__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>All</label>
+</ListView>

@@ -1,0 +1,105 @@
+<apex:page standardController="conference360__Recurring_Events__c" extensions="conference360.RecurringEventActionController">
+
+	<!-- The common component code also exists in Payment package, we can use the same by making the access level global -->
+	<c:BT_Common /> <!-- includes common html and javascript we use in all our VF Pages & Components -->
+
+	<!-- setting max-width here to it doesn't stretch across the entire screen on desktops - this also keeps it looking good for mobile -->
+	<apex:outputpanel layout="block" style="max-width:420px;margin:auto;padding:10px;">
+
+		<!-- put in an outer container so we can easily hide everything -->
+		<div id="outerContainer" style="padding:0px;">
+			<article class="slds-card">
+				<div class="slds-card__header slds-grid">
+					<header class="slds-media slds-media_center slds-has-flexi-truncate">
+						<div class="slds-media__figure">
+							<span class="slds-icon_container slds-icon-custom-custom53" title="transaction">
+								<svg class="slds-icon slds-icon_small" aria-hidden="true">
+									<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="{!URLFOR($Asset.SLDS, 'assets/icons/custom-sprite/svg/symbols.svg#custom53')}"></use>
+								</svg>
+								<span class="slds-assistive-text">Cancel Recurring Event</span>
+							</span>
+						</div>
+						<div class="slds-media__body">
+							<h2 class="slds-card__header-title">
+								<span>Cancel recurring event: {!conference360__Recurring_Events__c.Name}</span>
+							</h2>
+						</div>
+					</header>
+				</div>
+				<div class="slds-card__body slds-card__body_inner">
+
+					<apex:form id="main">
+						<apex:inputHidden value="{!errorMessage}" id="errorMessage" />
+						<apex:inputHidden value="{!conference360__Recurring_Events__c.Id}" />
+						<apex:inputHidden value="{!conference360__Recurring_Events__c.conference360__Count__c}" />
+						<apex:actionFunction name="cancelRecurringEvt" action="{!cancelRecurring}" oncomplete="allDone()"></apex:actionFunction>
+						<apex:actionFunction name="cancelUnpublishEvts" action="{!cancelAndUnpublish}" oncomplete="allDone()"></apex:actionFunction>
+						<apex:actionFunction name="cancelDeleteEvts" action="{!cancelAndDelete}" oncomplete="allDone()"></apex:actionFunction>
+					</apex:form>
+
+					<apex:outputPanel rendered="{!error == false}">
+						<br/>
+						{!ROUND(conference360__Recurring_Events__c.conference360__Count__c, 0)} {!IF(conference360__Recurring_Events__c.conference360__Count__c > 1, 'events', 'event')} of <b>{!conference360__Recurring_Events__c.Event__r.Name}</b> will be cancelled.
+					</apex:outputPanel>
+				</div>
+				<footer class="slds-card__footer slds-p-horizontal_none slds-m-vertical_xx-small">
+					<apex:outputPanel rendered="{!error == false}">
+						<button id="actionButton" class="actionButton slds-button slds-button--brand slds-not-selected" aria-live="assertive" onclick="cancelRecurringEvent()">
+							<span class="slds-text-not-selected">Cancel</span>
+						</button>
+						<button id="actionButton1" class="actionButton slds-button slds-button--brand slds-not-selected" aria-live="assertive" onclick="cancelAndUnpublish()">
+							<span class="slds-text-not-selected">Cancel &amp; Unpublish</span>
+						</button>
+						<button id="actionButton2" class="actionButton slds-button slds-button--brand slds-not-selected" aria-live="assertive" onclick="cancelAndDelete()">
+							<span class="slds-text-not-selected">Cancel &amp; Delete</span>
+						</button>
+					</apex:outputPanel>
+
+					<button id="back" class="slds-button slds-button_neutral slds-not-selected slds-m-top_x-small" aria-live="assertive" onclick="navigateTo('{!conference360__Recurring_Events__c.Id}')">
+						<span class="slds-text-not-selected">Back To Record</span>
+					</button>
+				</footer>
+			</article>
+		</div>
+	</apex:outputpanel>
+
+	<script>
+	window.onload = function() {
+		if ({!error}) { // this attribute is Boolean - false positive on Reflected/Stored XSS
+			showErrorToast("{!JSENCODE(errorMessage)}");
+		}
+	};
+
+	function cancelRecurringEvent() {
+		toggleSpinner(); // show spinner
+		// this next method is a apex:actionFunction
+		cancelRecurringEvt(); // this method calls allDone() when it's complete
+	}
+
+	function cancelAndUnpublish() {
+		toggleSpinner(); // show spinner
+		// this next method is a apex:actionFunction
+		cancelUnpublishEvts(); // this method calls allDone() when it's complete
+	}
+
+	function cancelAndDelete() {
+		toggleSpinner(); // show spinner
+		// this next method is a apex:actionFunction
+		cancelDeleteEvts(); // this method calls allDone() when it's complete
+	}
+
+	function allDone() {
+		toggleSpinner(); // hide spinner
+		var errorMessage = document.getElementById('{!$Component.theForm.errorMessage}').value;
+		if (errorMessage) {
+			showErrorToast(errorMessage);
+		} else { // success!
+			var actionButtons = document.getElementsByClassName('actionButton');
+			for (let index = 0; index < actionButtons.length; index++) {
+				actionButtons[index].style.display = 'none';
+			}
+			showSuccessToast('The Recurring Event was cancelled.', '{!conference360__Recurring_Events__c.Id}');
+		}
+	}
+	</script>
+</apex:page>

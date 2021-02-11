@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>conference360__Generate</fullName>
+    <availability>online</availability>
+    <displayType>button</displayType>
+    <height>600</height>
+    <linkType>page</linkType>
+    <masterLabel>Generate</masterLabel>
+    <openType>sidebar</openType>
+    <page>conference360__RecurringEvent_GenerateEvent</page>
+    <protected>false</protected>
+</WebLink>

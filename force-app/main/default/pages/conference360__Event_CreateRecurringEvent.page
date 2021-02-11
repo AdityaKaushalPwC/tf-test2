@@ -1,0 +1,18 @@
+<apex:page standardController="conference360__Event__c" extensions="conference360.RecurringEventActionController" action="{!createRecurringEventFromEvent}">
+
+	<apex:pageMessages />
+
+	<apex:outputPanel rendered="{!OR($User.UIThemeDisplayed == 'Theme4d', $User.UIThemeDisplayed == 'Theme4t', $User.UIThemeDisplayed == 'Theme4u') && !error}">
+		<script type="text/javascript">
+		var evtId = '{!Event__c.Id}';
+		var ns ='{!JSENCODE(ns)}';
+		if ({!error} === false) {
+			if (ns != null && ns != '') {
+				sforce.one.createRecord('conference360__Recurring_Events__c',null, {'conference360__Event__c':evtId});
+			} else {
+				sforce.one.createRecord('Recurring_Events__c',null, {'Event__c':evtId});
+			}
+		}
+		</script>
+	</apex:outputPanel>
+</apex:page>

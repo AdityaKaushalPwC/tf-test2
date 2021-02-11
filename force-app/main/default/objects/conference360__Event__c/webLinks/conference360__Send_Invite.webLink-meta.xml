@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>conference360__Send_Invite</fullName>
+    <availability>online</availability>
+    <description>Updates all attendee&apos;s status of &quot;To Invite&quot; to &quot;Invited&quot;</description>
+    <displayType>button</displayType>
+    <height>600</height>
+    <linkType>page</linkType>
+    <masterLabel>Send Invite</masterLabel>
+    <openType>sidebar</openType>
+    <page>conference360__Event_UpdateAttendeeStatus</page>
+    <protected>false</protected>
+</WebLink>

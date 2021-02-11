@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>conference360__QR_Code__c</fullName>
+    <deprecated>false</deprecated>
+    <description>QR code to see on page layouts, however this is not to be used in email templates.</description>
+    <externalId>false</externalId>
+    <formula>IMAGE(&apos;https://api.qrserver.com/v1/create-qr-code/?size=150x150&amp;data=&apos;&amp;CASESAFEID(Id),&apos;QR&apos;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>QR code to see on page layouts, however this is not to be used in email templates.</inlineHelpText>
+    <label>QR Code</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

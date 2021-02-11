@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>conference360__Communication_Preferences__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>Email Notifications</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Invited</fullName>
+                <default>false</default>
+                <label>Invited</label>
+            </value>
+            <value>
+                <fullName>Registered</fullName>
+                <default>false</default>
+                <label>Registered</label>
+            </value>
+            <value>
+                <fullName>Registration Canceled</fullName>
+                <default>false</default>
+                <label>Registration Canceled</label>
+            </value>
+            <value>
+                <fullName>Waitlist Pending</fullName>
+                <default>false</default>
+                <label>Waitlist Pending</label>
+            </value>
+            <value>
+                <fullName>Waitlist Approved</fullName>
+                <default>false</default>
+                <label>Waitlist Approved</label>
+            </value>
+            <value>
+                <fullName>Waitlist Rejected</fullName>
+                <default>false</default>
+                <label>Waitlist Rejected</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

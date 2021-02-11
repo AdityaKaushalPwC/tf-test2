@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>conference360__Negative_Value_Display__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Use - to display &quot;-10&quot; or ( ) to display &quot;(10)&quot;.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Use - to display &quot;-10&quot; or ( ) to display &quot;(10)&quot;.</inlineHelpText>
+    <label>Negative Value Display</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>-</fullName>
+                <default>false</default>
+                <label>-</label>
+            </value>
+            <value>
+                <fullName>( )</fullName>
+                <default>false</default>
+                <label>( )</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

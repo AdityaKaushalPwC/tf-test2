@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- UI Experience --></label>
+    <name>conference360__UI_Experience__c</name>
+    <picklistValues>
+        <masterLabel>Ash (Simple)</masterLabel>
+        <translation><!-- Ash (Simple) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Oak (Tabbed)</masterLabel>
+        <translation><!-- Oak (Tabbed) --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

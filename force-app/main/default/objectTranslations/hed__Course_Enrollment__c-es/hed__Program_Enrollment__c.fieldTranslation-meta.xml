@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Para estudiantes, su Inscripción de programa principal. En educación superior, normalmente representa la especialidad académica de un estudiante.</help>
+    <label><!-- Program Enrollment ID --></label>
+    <name>hed__Program_Enrollment__c</name>
+    <relationshipLabel><!-- Course Connections --></relationshipLabel>
+</CustomFieldTranslation>

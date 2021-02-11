@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>conference360__Controlling_Form_Element__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>The parent question (Form Element) if this is a conditional question.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The parent question (Form Element) if this is a conditional question.</inlineHelpText>
+    <label>Controlling Form Element</label>
+    <referenceTo>conference360__Form_Element__c</referenceTo>
+    <relationshipLabel>Form Elements</relationshipLabel>
+    <relationshipName>Form_Elements</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

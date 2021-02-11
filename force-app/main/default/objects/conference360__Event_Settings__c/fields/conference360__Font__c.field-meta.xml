@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>conference360__Font__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <inlineHelpText>Changes the font throughout the Event overview and checkout. Enter the exact name of the font to use. Use the list of fonts at https://www.w3schools.com/howto/howto_google_fonts.asp or any list of supported web fonts.</inlineHelpText>
+    <label>Font</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Fira Sans</fullName>
+                <default>false</default>
+                <label>Fira Sans</label>
+            </value>
+            <value>
+                <fullName>Heebo</fullName>
+                <default>false</default>
+                <label>Heebo</label>
+            </value>
+            <value>
+                <fullName>Knockout Junior</fullName>
+                <default>false</default>
+                <label>Knockout Junior</label>
+            </value>
+            <value>
+                <fullName>Knockout Liteweight</fullName>
+                <default>false</default>
+                <label>Knockout Liteweight</label>
+            </value>
+            <value>
+                <fullName>Lato</fullName>
+                <default>false</default>
+                <label>Lato</label>
+            </value>
+            <value>
+                <fullName>Lora</fullName>
+                <default>false</default>
+                <label>Lora</label>
+            </value>
+            <value>
+                <fullName>Merriweather</fullName>
+                <default>false</default>
+                <label>Merriweather</label>
+            </value>
+            <value>
+                <fullName>Montserrat</fullName>
+                <default>false</default>
+                <label>Montserrat</label>
+            </value>
+            <value>
+                <fullName>Muli</fullName>
+                <default>false</default>
+                <label>Muli</label>
+            </value>
+            <value>
+                <fullName>Nanum Gothic</fullName>
+                <default>false</default>
+                <label>Nanum Gothic</label>
+            </value>
+            <value>
+                <fullName>Neue Haas Unica Pro</fullName>
+                <default>false</default>
+                <label>Neue Haas Unica Pro</label>
+            </value>
+            <value>
+                <fullName>Noto Sans</fullName>
+                <default>false</default>
+                <label>Noto Sans</label>
+            </value>
+            <value>
+                <fullName>Noto Sans JP</fullName>
+                <default>false</default>
+                <label>Noto Sans JP</label>
+            </value>
+            <value>
+                <fullName>Noto Sherif</fullName>
+                <default>false</default>
+                <label>Noto Sherif</label>
+            </value>
+            <value>
+                <fullName>Nunito</fullName>
+                <default>false</default>
+                <label>Nunito</label>
+            </value>
+            <value>
+                <fullName>Open Sans</fullName>
+                <default>false</default>
+                <label>Open Sans</label>
+            </value>
+            <value>
+                <fullName>Open Sans Condensed</fullName>
+                <default>false</default>
+                <label>Open Sans Condensed</label>
+            </value>
+            <value>
+                <fullName>Oswald</fullName>
+                <default>false</default>
+                <label>Oswald</label>
+            </value>
+            <value>
+                <fullName>Playfair Display</fullName>
+                <default>false</default>
+                <label>Playfair Display</label>
+            </value>
+            <value>
+                <fullName>Poppins</fullName>
+                <default>false</default>
+                <label>Poppins</label>
+            </value>
+            <value>
+                <fullName>Proxima Nova</fullName>
+                <default>false</default>
+                <label>Proxima Nova</label>
+            </value>
+            <value>
+                <fullName>PT Sans</fullName>
+                <default>false</default>
+                <label>PT Sans</label>
+            </value>
+            <value>
+                <fullName>PT Sans Narrow</fullName>
+                <default>false</default>
+                <label>PT Sans Narrow</label>
+            </value>
+            <value>
+                <fullName>PT Sherif</fullName>
+                <default>false</default>
+                <label>PT Sherif</label>
+            </value>
+            <value>
+                <fullName>Quicksand</fullName>
+                <default>false</default>
+                <label>Quicksand</label>
+            </value>
+            <value>
+                <fullName>Raleway</fullName>
+                <default>false</default>
+                <label>Raleway</label>
+            </value>
+            <value>
+                <fullName>Roboto</fullName>
+                <default>false</default>
+                <label>Roboto</label>
+            </value>
+            <value>
+                <fullName>Roboto Condensed</fullName>
+                <default>false</default>
+                <label>Roboto Condensed</label>
+            </value>
+            <value>
+                <fullName>Roboto Slab</fullName>
+                <default>false</default>
+                <label>Roboto Slab</label>
+            </value>
+            <value>
+                <fullName>Rubik</fullName>
+                <default>false</default>
+                <label>Rubik</label>
+            </value>
+            <value>
+                <fullName>Source Sans Pro</fullName>
+                <default>false</default>
+                <label>Source Sans Pro</label>
+            </value>
+            <value>
+                <fullName>Titillium Web</fullName>
+                <default>false</default>
+                <label>Titillium Web</label>
+            </value>
+            <value>
+                <fullName>Ubuntu</fullName>
+                <default>false</default>
+                <label>Ubuntu</label>
+            </value>
+            <value>
+                <fullName>Work Sans</fullName>
+                <default>false</default>
+                <label>Work Sans</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

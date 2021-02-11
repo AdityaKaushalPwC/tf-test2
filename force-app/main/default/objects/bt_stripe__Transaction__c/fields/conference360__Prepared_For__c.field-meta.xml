@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>conference360__Prepared_For__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <formula>bt_stripe__Sales_Document__r.bt_stripe__Contact__r.FirstName &amp;&quot; &quot;&amp;bt_stripe__Sales_Document__r.bt_stripe__Contact__r.LastName</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Prepared For</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

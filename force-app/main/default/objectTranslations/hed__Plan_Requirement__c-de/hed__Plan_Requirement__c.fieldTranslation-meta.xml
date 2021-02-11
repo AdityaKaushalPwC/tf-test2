@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Gibt die übergeordnete Plananforderung an, wenn die Plananforderung eine von mehreren Anforderungen oder Anforderungsebenen ist. Gruppieren Sie mithilfe dieses Felds eine Liste optionaler Kurse, die eine allgemeine Anforderung erfüllen.</help>
+    <label><!-- Parent Plan Requirement --></label>
+    <name>hed__Plan_Requirement__c</name>
+    <relationshipLabel><!-- Plan Requirements --></relationshipLabel>
+</CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>特記事項が期限切れになったかどうかを示します。[特記事項終了日] が過去の日付の場合、これが自動的にオンになります。</help>
+    <label><!-- Expired --></label>
+    <name>hed__Expired__c</name>
+</CustomFieldTranslation>

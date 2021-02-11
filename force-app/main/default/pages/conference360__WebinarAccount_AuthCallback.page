@@ -1,0 +1,7 @@
+<apex:page showHeader="true" sidebar="true" controller="conference360.WebinarAccountAuthController" action="{!processCallbackFactory}">
+	<!--
+	this page is called from Auth once a customer creates/links a  Account to our Events app. the processCallback
+	action creates/updates a Webinar Account record - then this page redirects to the Webinar Account record
+	-->
+	<apex:pageMessages />
+</apex:page>

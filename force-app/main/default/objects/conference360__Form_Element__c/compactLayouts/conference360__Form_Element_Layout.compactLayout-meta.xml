@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>conference360__Form_Element_Layout</fullName>
+    <fields>Name</fields>
+    <fields>conference360__Maps_To_Object__c</fields>
+    <fields>conference360__Maps_To_Field__c</fields>
+    <fields>conference360__Type__c</fields>
+    <fields>conference360__Sort_Order__c</fields>
+    <label>Form Element Layout</label>
+</CompactLayout>

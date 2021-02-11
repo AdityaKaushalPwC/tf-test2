@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Dieses Feld wird automatisch mit dem Zugehörigkeitsdatensatz aufgefüllt, der die Registrierung des Studenten bei diesem Programm darstellt.</help>
+    <label><!-- Affiliation --></label>
+    <name>hed__Affiliation__c</name>
+    <relationshipLabel><!-- Program Enrollments --></relationshipLabel>
+</CustomFieldTranslation>

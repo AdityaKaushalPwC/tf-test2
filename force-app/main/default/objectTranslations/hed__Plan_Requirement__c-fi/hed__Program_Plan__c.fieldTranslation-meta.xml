@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Ohjelmasuunnitelma, jota tämä vaatimus koskee. Jos ryhmittelet suunnitelmavaatimukset yhteen pääsuunnitelmavaatimusten alle, paras käytäntö on linkittää vain pääsuunnitelman vaatimus ohjelmasuunnitelmaan.</help>
+    <label><!-- Program Plan --></label>
+    <name>hed__Program_Plan__c</name>
+    <relationshipLabel><!-- Plan Requirements --></relationshipLabel>
+</CustomFieldTranslation>

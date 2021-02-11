@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>conference360__Error_Message__c</fullName>
+    <deprecated>false</deprecated>
+    <description>If the form fails to process and an error is generated, this field will automatically contain the error message.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>If the form fails to process and an error is generated, this field will automatically contain the error message.</inlineHelpText>
+    <label>Error Message</label>
+    <length>131072</length>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>10</visibleLines>
+</CustomField>

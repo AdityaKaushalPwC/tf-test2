@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>봉투를 통해 데이타를 전달하기 위한 사용자 필드</help>
+    <label><!-- Custom Field 3 --></label>
+    <name>dsfs__Custom_Field_3__c</name>
+</CustomFieldTranslation>

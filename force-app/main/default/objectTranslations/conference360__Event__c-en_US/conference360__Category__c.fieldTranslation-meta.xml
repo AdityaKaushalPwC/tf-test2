@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Categorize the type of Event to provide a better event search and reporting. --></help>
+    <label><!-- Category --></label>
+    <name>conference360__Category__c</name>
+    <picklistValues>
+        <masterLabel>Class/Workshop</masterLabel>
+        <translation><!-- Class/Workshop --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Conference</masterLabel>
+        <translation><!-- Conference --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Expo</masterLabel>
+        <translation><!-- Expo --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Festival</masterLabel>
+        <translation><!-- Festival --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fundraiser</masterLabel>
+        <translation><!-- Fundraiser --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Meeting</masterLabel>
+        <translation><!-- Meeting --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other</masterLabel>
+        <translation><!-- Other --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Reunion</masterLabel>
+        <translation><!-- Reunion --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Social/Networking</masterLabel>
+        <translation><!-- Social/Networking --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Trade Show</masterLabel>
+        <translation><!-- Trade Show --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Virtual Event</masterLabel>
+        <translation><!-- Virtual Event --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

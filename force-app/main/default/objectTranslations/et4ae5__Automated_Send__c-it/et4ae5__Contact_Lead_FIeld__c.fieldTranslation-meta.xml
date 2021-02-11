@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Il campo Referente/Lead è utilizzato per identificare il destinatario dell&apos;email. Deve essere un campo di ricerca all&apos;oggetto Referente o Lead per il rispettivo oggetto utilizzato nella Definizione di invio con trigger. Se si crea un invio con trigger sull&apos;oggetto Referente o Lead</help>
+    <label><!-- Contact/Lead FIeld --></label>
+    <name>et4ae5__Contact_Lead_FIeld__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>CUST_NAME</field>
+    </columns>
+    <columns>
+        <field>CUST_CREATED_DATE</field>
+    </columns>
+    <columns>
+        <field>bt_stripe__Subscription2__c.bt_stripe__Billing_Cycle_Anchor_First_Invoice__c</field>
+    </columns>
+    <columns>
+        <field>bt_stripe__Subscription2__c.bt_stripe__Start__c</field>
+    </columns>
+    <columns>
+        <field>bt_stripe__Subscription2__c.bt_stripe__Plan__c</field>
+    </columns>
+    <description>All subscriptions created in the last 90 days.</description>
+    <filter>
+        <criteriaItems>
+            <column>bt_stripe__Subscription2__c.bt_stripe__Status__c</column>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Trialing,Active</value>
+        </criteriaItems>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Month</dateGranularity>
+        <field>bt_stripe__Subscription2__c.bt_stripe__Processed_Date_Created__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>bt_stripe__Subscription2__c.bt_stripe__Status__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>3) Stripe-New Subscriptions Last 90 Days</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CustomEntity$bt_stripe__Subscription2__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <sortColumn>CUST_CREATED_DATE</sortColumn>
+    <sortOrder>Desc</sortOrder>
+    <timeFrameFilter>
+        <dateColumn>bt_stripe__Subscription2__c.bt_stripe__Billing_Cycle_Anchor_First_Invoice__c</dateColumn>
+        <interval>INTERVAL_LAST90</interval>
+    </timeFrameFilter>
+</Report>

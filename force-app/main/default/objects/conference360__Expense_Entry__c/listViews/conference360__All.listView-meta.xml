@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>conference360__All</fullName>
+    <columns>NAME</columns>
+    <columns>conference360__Event__c</columns>
+    <columns>conference360__Budget_Expense__c</columns>
+    <columns>conference360__Category__c</columns>
+    <columns>conference360__Subcategory__c</columns>
+    <columns>conference360__Description__c</columns>
+    <columns>conference360__Amount__c</columns>
+    <columns>conference360__Transaction_Date__c</columns>
+    <columns>conference360__Vendor_Account__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>All</label>
+</ListView>

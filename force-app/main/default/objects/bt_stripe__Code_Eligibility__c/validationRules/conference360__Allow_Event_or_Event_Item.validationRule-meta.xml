@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>conference360__Allow_Event_or_Event_Item</fullName>
+    <active>true</active>
+    <description>but not both - a code eligibility record can only be defined for an Event or Event Item - not both</description>
+    <errorConditionFormula>AND(
+conference360__Event__c &lt;&gt; null,
+conference360__Event_Item__c &lt;&gt; null
+)</errorConditionFormula>
+    <errorMessage>You can only create a Code Eligibility for an Event or Event Item - not both.</errorMessage>
+</ValidationRule>

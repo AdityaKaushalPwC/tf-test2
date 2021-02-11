@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>conference360__Clone_Related_Child_Records__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Select which child related objects you want cloned when creating recurring events.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Select which child related objects you want cloned when creating recurring events.</inlineHelpText>
+    <label>Clone Related Child Records</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Event Items</fullName>
+                <default>false</default>
+                <label>Event Items</label>
+            </value>
+            <value>
+                <fullName>Sessions</fullName>
+                <default>false</default>
+                <label>Sessions</label>
+            </value>
+            <value>
+                <fullName>Budget And Expenses</fullName>
+                <default>false</default>
+                <label>Budget And Expenses</label>
+            </value>
+            <value>
+                <fullName>Event FAQ</fullName>
+                <default>false</default>
+                <label>Event FAQ</label>
+            </value>
+            <value>
+                <fullName>Event Content</fullName>
+                <default>false</default>
+                <label>Event Content</label>
+            </value>
+            <value>
+                <fullName>Speaker</fullName>
+                <default>false</default>
+                <label>Speaker</label>
+            </value>
+            <value>
+                <fullName>Sponsor</fullName>
+                <default>false</default>
+                <label>Sponsor</label>
+            </value>
+            <value>
+                <fullName>Track</fullName>
+                <default>false</default>
+                <label>Track</label>
+            </value>
+            <value>
+                <fullName>Seat</fullName>
+                <default>false</default>
+                <label>Seat</label>
+            </value>
+            <value>
+                <fullName>Table</fullName>
+                <default>false</default>
+                <label>Table</label>
+            </value>
+            <value>
+                <fullName>Custom Event Tab</fullName>
+                <default>false</default>
+                <label>Custom Event Tab</label>
+            </value>
+            <value>
+                <fullName>Expense Entry</fullName>
+                <default>false</default>
+                <label>Expense Entry</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

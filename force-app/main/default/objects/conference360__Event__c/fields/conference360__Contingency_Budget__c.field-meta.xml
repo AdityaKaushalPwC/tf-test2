@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>conference360__Contingency_Budget__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Estimated spend on Contingency (Emergency) for this Event. Populated automatically from related Budget &amp; Expense records but can be overridden if entered directly. Updates to B&amp;E records will overwrite manual field entries though.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Estimated spend on Contingency (Emergency) for this Event. Populated automatically from related Budget &amp; Expense records but can be overridden if entered directly. Updates to B&amp;E records will overwrite manual field entries though.</inlineHelpText>
+    <label>Contingency Budget</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

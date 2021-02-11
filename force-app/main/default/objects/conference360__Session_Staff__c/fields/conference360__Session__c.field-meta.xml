@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>conference360__Session__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>Session</label>
+    <referenceTo>conference360__Session__c</referenceTo>
+    <relationshipLabel>Session Staff</relationshipLabel>
+    <relationshipName>Session_Staff</relationshipName>
+    <relationshipOrder>1</relationshipOrder>
+    <reparentableMasterDetail>true</reparentableMasterDetail>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

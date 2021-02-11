@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Indica que aquest és l&apos;idioma escollit per a aquesta persona.</help>
+    <label><!-- Primary Language --></label>
+    <name>hed__Primary_Language__c</name>
+</CustomFieldTranslation>

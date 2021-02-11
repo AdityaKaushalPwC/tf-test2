@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Category type for this session. --></help>
+    <label><!-- Type --></label>
+    <name>conference360__Type__c</name>
+    <picklistValues>
+        <masterLabel>Attendee Registration</masterLabel>
+        <translation><!-- Attendee Registration --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Awards Dinner</masterLabel>
+        <translation><!-- Awards Dinner --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Breakfast</masterLabel>
+        <translation><!-- Breakfast --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Breakout Session</masterLabel>
+        <translation><!-- Breakout Session --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Exhibit Hall Open</masterLabel>
+        <translation><!-- Exhibit Hall Open --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Gala</masterLabel>
+        <translation><!-- Gala --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Happy Hour</masterLabel>
+        <translation><!-- Happy Hour --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Keynote</masterLabel>
+        <translation><!-- Keynote --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Luncheon</masterLabel>
+        <translation><!-- Luncheon --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Meetup</masterLabel>
+        <translation><!-- Meetup --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other</masterLabel>
+        <translation><!-- Other --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Reception</masterLabel>
+        <translation><!-- Reception --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Seminar</masterLabel>
+        <translation><!-- Seminar --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

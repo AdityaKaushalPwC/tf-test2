@@ -1,0 +1,58 @@
+<apex:page standardController="conference360__Webinar_Account__c" extensions="conference360.WebinarAccountAuthController">
+
+	<c:BT_Common />
+		<!-- show the auth button based on type of provider -->
+		<!-- setting max-width here to it doesn't stretch across the entire screen on desktops - this also keeps it looking good for mobile -->
+	<apex:outputpanel layout="block" style="max-width:420px;margin:auto;padding:10px;">
+
+		<!-- put in an outer container so we can easily hide everything -->
+		<div id="outerContainer" style="padding:0px;">
+			<article class="slds-card">
+				<div class="slds-card__header slds-grid">
+					<header class="slds-media slds-media_center slds-has-flexi-truncate">
+						<div class="slds-media__figure">
+							<span class="slds-icon_container slds-icon-custom-custom41" title="auth">
+								<svg class="slds-icon slds-icon_small" aria-hidden="true">
+									<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="{!URLFOR($Asset.SLDS, 'assets/icons/custom-sprite/svg/symbols.svg#custom41')}"></use>
+								</svg>
+								<span class="slds-assistive-text">auth</span>
+							</span>
+						</div>
+						<div class="slds-media__body">
+							<h2 class="slds-card__header-title">
+								<span>Authorization</span>
+							</h2>
+						</div>
+					</header>
+				</div>
+				<div class="slds-card__body slds-card__body_inner">
+					<apex:outputPanel >
+						<br/>
+						Complete the Authorization Process with {!conference360__Webinar_Account__c.conference360__Provider__c}.
+					</apex:outputPanel>
+				</div>
+				<footer class="slds-card__footer">
+					<apex:form id="main">
+						<apex:inputHidden value="{!conference360__Webinar_Account__c.conference360__Provider__c}" />
+						<apex:actionFunction name="gotoWebinarAuth" action="{!redirectFactory}"></apex:actionFunction>
+					</apex:form>
+
+					<button id="actionButton" class="slds-button slds-button--brand slds-not-selected" aria-live="assertive" onclick="gotoWebinarAuthJS()">
+						<span class="slds-text-not-selected">Connect</span>
+					</button>
+
+					<button id="back" class="slds-button slds-button_neutral slds-not-selected" aria-live="assertive" onclick="navigateTo('{!Webinar_Account__c.Id}')">
+						<span class="slds-text-not-selected">Return To Record</span>
+					</button>
+				</footer>
+			</article>
+		</div>
+	</apex:outputpanel>
+
+	<script>
+	function gotoWebinarAuthJS() {
+		// this next method is a apex:actionFunction
+		gotoWebinarAuth();
+	}
+	</script>
+</apex:page>

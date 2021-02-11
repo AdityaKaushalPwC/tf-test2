@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>如果您想新增為此文件的額外收件人/簽署人，請按一下此核取方塊。如果未勾選此核取方塊，您將會收到聯絡人已透過 DocuSign 完成簽署的通知，但您本人將無法簽署。</help>
+    <label><!-- I will also Sign --></label>
+    <name>dsfs__I_will_Sign__c</name>
+</CustomFieldTranslation>

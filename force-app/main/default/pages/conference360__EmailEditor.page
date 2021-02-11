@@ -1,0 +1,93 @@
+<apex:page standardController="conference360__Email_Template__c" extensions="conference360.EmailEditorExtension" showHeader="false" sidebar="false" applyHtmlTag="false" applyBodyTag="false" docType="html-5.0">
+
+	<html lang="en">
+	<apex:slds />
+
+	<head>
+		<title>Email Editor</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+		<!-- Custom CSS -->
+		<link rel="stylesheet" href="{!URLFOR($Resource.EmailEditor,'EmailEditor.css')}" />
+
+		<!-- Plugin script -->
+		<script src="{!URLFOR($Resource.EmailEditor,'BeePlugin.js')}"></script>
+
+		<!-- Custom Script -->
+		<script type="text/javascript">
+			var jsonFileVar;
+			var htmlFileVar;
+
+			try{
+				var mergeTags = JSON.parse('{!JSENCODE(mergeTags)}');
+			}
+			catch(err){
+				console.log('Merge Tags failed to load: '+err.message);
+			}
+
+			var beeConfig = {
+				uid: '{!$Organization.Id}',
+				container: 'bee-plugin-container',
+				language: 'en-US',
+				mergeTags: mergeTags,
+
+				onSave: function (jsonFile, htmlFile) {
+					let eventId = "{!eventId}";
+					let templateId = "{!customTemplate.Id}";
+					let templateName = "{!customTemplate.Name}";
+					let templateSubject = "{!sfEmailTemplate.Subject}";
+					let sfEmailTemplateId = "{!sfEmailTemplate.Id}";
+
+					var message;
+					message = {
+						type: "saveTemplate",
+						payload: {
+							'jsonFile': jsonFile,
+							'htmlFile': htmlFile,
+							'eventId': eventId,
+							'templateId': templateId,
+							'templateName': templateName,
+							'templateSubject': templateSubject,
+							'sfEmailTemplateId': sfEmailTemplateId
+						}
+					}
+					parent.postMessage(message, location.ancestorOrigins[0]);
+				},
+				onSend: function (htmlFile) {
+					var message;
+					message = {
+						type: "sendEmail",
+						payload: {
+							'htmlFile': htmlFile
+						}
+					}
+					parent.postMessage(message, location.ancestorOrigins[0]);
+				}
+			};
+
+			if ({!NOT(hasError)}){
+				// Load BEE
+				var bee = null;
+				var token = {!token};
+
+				BeePlugin.create(token, beeConfig, function (beePluginInstance) {
+					bee = beePluginInstance;
+					// load Default template
+					var loadTemplate = "{!JSENCODE(customTemplate.JSON_File_1__c + customTemplate.JSON_File_2__c)}";
+					template = JSON.parse(loadTemplate);
+					bee.start(template);
+				});
+			}
+		</script>
+	</head>
+
+	<body>
+		<apex:pageMessages />
+
+		<!-- plugin container -->
+		<div id="bee-plugin-container"></div>
+	</body>
+
+	</html>
+</apex:page>

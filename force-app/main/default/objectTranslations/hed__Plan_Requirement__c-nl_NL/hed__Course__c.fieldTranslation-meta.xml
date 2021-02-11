@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>De cursus die aan deze planvereiste is gekoppeld. Laat leeg voor een bovenliggende planvereiste met geneste planvereisten.</help>
+    <label><!-- Course --></label>
+    <name>hed__Course__c</name>
+    <relationshipLabel><!-- Plan Requirements --></relationshipLabel>
+</CustomFieldTranslation>

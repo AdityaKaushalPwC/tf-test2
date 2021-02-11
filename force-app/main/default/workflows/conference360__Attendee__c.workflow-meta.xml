@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>conference360__Added_To_Waitlist_Email</fullName>
+        <description>Waitlist email that goes out to the Attendees added to a waitlist.</description>
+        <protected>false</protected>
+        <recipients>
+            <field>conference360__Email__c</field>
+            <type>email</type>
+        </recipients>
+        <recipients>
+            <field>conference360__Primary_Email__c</field>
+            <type>email</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>conference360__Blackthorn_Events/conference360__Waitlisted_Email</template>
+    </alerts>
+    <alerts>
+        <fullName>conference360__Cancellation_Email</fullName>
+        <description>Cancellation Email</description>
+        <protected>false</protected>
+        <recipients>
+            <field>conference360__Email__c</field>
+            <type>email</type>
+        </recipients>
+        <recipients>
+            <field>conference360__Primary_Email__c</field>
+            <type>email</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>conference360__Blackthorn_Events/conference360__Cancellation_Email</template>
+    </alerts>
+    <alerts>
+        <fullName>conference360__Removed_from_the_waitlist_email</fullName>
+        <description>Removed from the waitlist email</description>
+        <protected>false</protected>
+        <recipients>
+            <field>conference360__Email__c</field>
+            <type>email</type>
+        </recipients>
+        <recipients>
+            <field>conference360__Primary_Email__c</field>
+            <type>email</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>conference360__Blackthorn_Events/conference360__Removed_from_the_Waitlist_Email</template>
+    </alerts>
+    <alerts>
+        <fullName>conference360__Send_Blackthorn_Event_Reminder_email</fullName>
+        <description>Send Blackthorn | Event Reminder email</description>
+        <protected>false</protected>
+        <recipients>
+            <field>conference360__Email__c</field>
+            <type>email</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>conference360__Blackthorn_Events/conference360__Event_Invite_Email_Reminder</template>
+    </alerts>
+    <alerts>
+        <fullName>conference360__Send_Blackthorn_Event_confirmation_email</fullName>
+        <description>Send Blackthorn | Event confirmation email</description>
+        <protected>false</protected>
+        <recipients>
+            <field>conference360__Email__c</field>
+            <type>email</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>conference360__Blackthorn_Events/conference360__Event_Confirmation_Email</template>
+    </alerts>
+    <alerts>
+        <fullName>conference360__Send_Blackthorn_Event_invite_email_HTML</fullName>
+        <description>Send Blackthorn | Event invite email</description>
+        <protected>false</protected>
+        <recipients>
+            <field>conference360__Email__c</field>
+            <type>email</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>conference360__Blackthorn_Events/conference360__Event_Invite_Email</template>
+    </alerts>
+    <fieldUpdates>
+        <fullName>conference360__Uncheck_Send_Reminder</fullName>
+        <field>conference360__Send_Reminder__c</field>
+        <literalValue>0</literalValue>
+        <name>Uncheck Send Reminder</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <rules>
+        <fullName>conference360__Send Blackthorn %7C Event Reminder email</fullName>
+        <actions>
+            <name>conference360__Send_Blackthorn_Event_Reminder_email</name>
+            <type>Alert</type>
+        </actions>
+        <actions>
+            <name>conference360__Uncheck_Send_Reminder</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>false</active>
+        <criteriaItems>
+            <field>conference360__Attendee__c.conference360__Send_Reminder__c</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </criteriaItems>
+        <description>Event invitation email that goes out to all Attendees with Send reminder as true</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>conference360__Send Blackthorn %7C Event confirmation email</fullName>
+        <actions>
+            <name>conference360__Send_Blackthorn_Event_confirmation_email</name>
+            <type>Alert</type>
+        </actions>
+        <active>false</active>
+        <criteriaItems>
+            <field>conference360__Attendee__c.conference360__Registration_Status__c</field>
+            <operation>equals</operation>
+            <value>Registered</value>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>conference360__Send Blackthorn %7C Event invite email</fullName>
+        <actions>
+            <name>conference360__Send_Blackthorn_Event_invite_email_HTML</name>
+            <type>Alert</type>
+        </actions>
+        <active>false</active>
+        <criteriaItems>
+            <field>conference360__Attendee__c.conference360__Registration_Status__c</field>
+            <operation>equals</operation>
+            <value>Invited</value>
+        </criteriaItems>
+        <description>Event invitation email that goes out to all Attendees with a status of &quot;Invited&quot;</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>conference360__Send Cancelled Registration Email</fullName>
+        <actions>
+            <name>conference360__Cancellation_Email</name>
+            <type>Alert</type>
+        </actions>
+        <active>false</active>
+        <criteriaItems>
+            <field>conference360__Attendee__c.conference360__Registration_Status__c</field>
+            <operation>equals</operation>
+            <value>Canceled</value>
+        </criteriaItems>
+        <description>Send Cancelled Registration Email</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>conference360__Send the Waitlisted Email</fullName>
+        <actions>
+            <name>conference360__Added_To_Waitlist_Email</name>
+            <type>Alert</type>
+        </actions>
+        <active>false</active>
+        <booleanFilter>1</booleanFilter>
+        <criteriaItems>
+            <field>conference360__Attendee__c.conference360__Registration_Status__c</field>
+            <operation>equals</operation>
+            <value>Waitlisted - Pending</value>
+        </criteriaItems>
+        <description>Email that goes out to the Attendees when added to a waitlist</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>conference360__Send the removed from the Waitlist Email</fullName>
+        <actions>
+            <name>conference360__Removed_from_the_waitlist_email</name>
+            <type>Alert</type>
+        </actions>
+        <active>false</active>
+        <booleanFilter>1</booleanFilter>
+        <criteriaItems>
+            <field>conference360__Attendee__c.conference360__Registration_Status__c</field>
+            <operation>equals</operation>
+            <value>Pending</value>
+        </criteriaItems>
+        <description>Email that goes out to the Attendees who have been removed from the waitlist.</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+</Workflow>

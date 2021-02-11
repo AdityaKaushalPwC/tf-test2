@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>conference360__Validate_ratings</fullName>
+    <active>true</active>
+    <errorConditionFormula>conference360__Rating__c  &lt;= 0  ||  conference360__Rating__c  &gt; 5</errorConditionFormula>
+    <errorMessage>Rating should always be between 1 to 5.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>조직 Salesforce &apos;문서 탭&apos;에 있는 PDF 문서의 목록입니다.   DocuSign으로 전송하려면 Salesforce의 문서 탭 내의 폴더에 PDF를 추가해야 합니다.  다른 형식으로 전송하려면 &apos;자세히 알아보기&apos;를 클릭하십시오. </help>
+    <label><!-- Document Name --></label>
+    <name>dsfs__Document_Name__c</name>
+</CustomFieldTranslation>

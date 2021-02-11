@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>conference360__Enable_Forms_v2__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>This field is deprecated and is no longer referenced. All forms including custom questions submitted during checkout use our improved form processing logic.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>This field is deprecated and is no longer referenced. All forms including custom questions submitted during checkout use our improved form processing logic.</inlineHelpText>
+    <label>Enable Forms v2</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

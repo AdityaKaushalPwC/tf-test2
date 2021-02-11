@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>conference360__Greeting_Name_Formality__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <inlineHelpText>Set the first name greeting style, which can be used in email templates as a merge field.</inlineHelpText>
+    <label>Greeting Name Formality</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Formal</fullName>
+                <default>true</default>
+                <label>Formal</label>
+            </value>
+            <value>
+                <fullName>Informal First</fullName>
+                <default>false</default>
+                <label>Informal First</label>
+            </value>
+            <value>
+                <fullName>Informal Full</fullName>
+                <default>false</default>
+                <label>Informal Full</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

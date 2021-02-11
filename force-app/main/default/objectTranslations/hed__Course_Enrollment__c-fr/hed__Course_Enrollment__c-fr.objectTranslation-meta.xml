@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Inscription à un module</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Inscriptions à des modules</value>
+    </caseValues>
+    <gender>Feminine</gender>
+    <nameFieldLabel>ID de connexion au cours</nameFieldLabel>
+    <recordTypes>
+        <description>Un type d&apos;enregistrement par défaut à utiliser pour un test. Ce type d&apos;enregistrement doit être activé et visible uniquement pour les administrateurs système.</description>
+        <label>Par défaut</label>
+        <name>Default</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Une connexion à un cours de professeur</description>
+        <label>Professeur</label>
+        <name>Faculty</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Une connexion à un cours d&apos;étudiant</description>
+        <label>Étudiant</label>
+        <name>Student</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>bt_stripe__Debit_Negative_Balances__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Whether or not Stripe will attempt to reclaim negative account balances from this account&apos;s bank account.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Whether or not Stripe will attempt to reclaim negative account balances from this account&apos;s bank account.</inlineHelpText>
+    <label>Debit Negative Balances</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

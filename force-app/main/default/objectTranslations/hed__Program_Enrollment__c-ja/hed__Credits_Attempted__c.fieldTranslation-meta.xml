@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>学生がこれまでに完了を試みた単位数。これには、進行中の単位や、単位を取得できなかった不合格の科目の単位が含まれます。</help>
+    <label><!-- Credits Attempted --></label>
+    <name>hed__Credits_Attempted__c</name>
+</CustomFieldTranslation>

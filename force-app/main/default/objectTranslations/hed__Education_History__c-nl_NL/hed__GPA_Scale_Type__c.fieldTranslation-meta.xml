@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Houdt bij hoe de gemiddelde eindscore is bepaald, bijvoorbeeld met een gewogen of een ongewogen schaal.</help>
+    <label><!-- GPA Scale Type --></label>
+    <name>hed__GPA_Scale_Type__c</name>
+    <picklistValues>
+        <masterLabel>Unweighted</masterLabel>
+        <translation>Ongewogen</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Weighted</masterLabel>
+        <translation>Gewogen</translation>
+    </picklistValues>
+</CustomFieldTranslation>

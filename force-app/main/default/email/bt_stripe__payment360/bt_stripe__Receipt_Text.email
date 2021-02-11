@@ -1,0 +1,22 @@
+Hi,
+
+Thank you for your purchase with {!Organization.Name}! Below you will find a receipt of your transaction!
+
+--Transaction Information--
+Merchant:    {!Organization.Name}
+Amount:       {!text(floor(bt_stripe__Transaction__c.bt_stripe__Amount__c)) &"."& lpad(text((bt_stripe__Transaction__c.bt_stripe__Amount__c-floor(bt_stripe__Transaction__c.bt_stripe__Amount__c))*100),2,"0") }{!bt_stripe__Transaction__c.bt_stripe__Currency_ISO__c}
+Description: {!bt_stripe__Transaction__c.bt_stripe__Description__c}
+Date: {!bt_stripe__Transaction__c.bt_stripe__Processed_Date__c}
+ID:     {!bt_stripe__Transaction__c.Name}
+
+--Payment Information--
+Card Type:   {!bt_stripe__Transaction__c.bt_stripe__Payment_Method_Funding__c}
+Card Brand: {!bt_stripe__Transaction__c.bt_stripe__Payment_Method_Brand__c}
+Cardholder Name:  {!bt_stripe__Transaction__c.bt_stripe__Payment_Method_Holder_s_Name__c}
+Card Ending:          {!bt_stripe__Transaction__c.bt_stripe__Payment_Method_Last_4__c}
+
+--Customer Information--
+Email: {!bt_stripe__Transaction__c.bt_stripe__Payment_Method_Billing_Email__c}
+
+Thank you!
+{!Organization.Name}

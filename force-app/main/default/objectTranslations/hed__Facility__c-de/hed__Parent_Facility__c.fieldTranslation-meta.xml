@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Gibt optional die Räumlichkeit an, zu der diese gehört. Wenn diese Räumlichkeit z. B. ein Unterrichtsraum ist, wäre die übergeordnete Räumlichkeit das Gebäude, in dem sich dieser Unterrichtsraum befindet.</help>
+    <label><!-- Parent Facility --></label>
+    <name>hed__Parent_Facility__c</name>
+    <relationshipLabel><!-- Facilities --></relationshipLabel>
+</CustomFieldTranslation>

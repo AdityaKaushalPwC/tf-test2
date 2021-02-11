@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>conference360__Ad_Display_Method__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>Ad Display Method</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Cycle Every 5 Seconds</fullName>
+                <default>false</default>
+                <label>Cycle Every 5 Seconds</label>
+            </value>
+            <value>
+                <fullName>Cycle Every 10 Seconds</fullName>
+                <default>false</default>
+                <label>Cycle Every 10 Seconds</label>
+            </value>
+            <value>
+                <fullName>Cycle Every 15 Seconds</fullName>
+                <default>false</default>
+                <label>Cycle Every 15 Seconds</label>
+            </value>
+            <value>
+                <fullName>Cycle Every 30 Seconds</fullName>
+                <default>false</default>
+                <label>Cycle Every 30 Seconds</label>
+            </value>
+            <value>
+                <fullName>Cycle Every Minute</fullName>
+                <default>false</default>
+                <label>Cycle Every Minute</label>
+            </value>
+            <value>
+                <fullName>Cycle Every Two Minutes</fullName>
+                <default>false</default>
+                <label>Cycle Every Two Minutes</label>
+            </value>
+            <value>
+                <fullName>Cycle Every Five Minutes</fullName>
+                <default>false</default>
+                <label>Cycle Every Five Minutes</label>
+            </value>
+            <value>
+                <fullName>Cycle Every Ten Minutes</fullName>
+                <default>false</default>
+                <label>Cycle Every Ten Minutes</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

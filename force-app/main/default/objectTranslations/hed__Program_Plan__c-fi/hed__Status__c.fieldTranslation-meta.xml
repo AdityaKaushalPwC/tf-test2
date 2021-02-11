@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Valitse ”Nykyinen”, jos tähän ohjelmasuunnitelmaan on rekisteröitynyt opiskelijoita tai opiskelijat voivat ilmoittautua siihen. Muussa tapauksessa valitse ”Arkistoitu”.</help>
+    <label><!-- Status --></label>
+    <name>hed__Status__c</name>
+    <picklistValues>
+        <masterLabel>Archived</masterLabel>
+        <translation>Arkistoitu</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Current</masterLabel>
+        <translation>Nykyinen</translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>conference360__Type__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The type of question/Form Element.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The type of question/Form Element.</inlineHelpText>
+    <label>Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Big List Group</fullName>
+                <default>false</default>
+                <label>Big List Group</label>
+            </value>
+            <value>
+                <fullName>Checkbox</fullName>
+                <default>false</default>
+                <label>Checkbox</label>
+            </value>
+            <value>
+                <fullName>Date</fullName>
+                <default>false</default>
+                <label>Date</label>
+            </value>
+            <value>
+                <fullName>Divider</fullName>
+                <default>false</default>
+                <label>Divider</label>
+            </value>
+            <value>
+                <fullName>Email</fullName>
+                <default>false</default>
+                <label>Email</label>
+            </value>
+            <value>
+                <fullName>File Upload</fullName>
+                <default>false</default>
+                <label>File Upload</label>
+            </value>
+            <value>
+                <fullName>Hidden</fullName>
+                <default>false</default>
+                <label>Hidden</label>
+            </value>
+            <value>
+                <fullName>Multi-Select Picklist</fullName>
+                <default>false</default>
+                <label>Multi-Select Picklist</label>
+            </value>
+            <value>
+                <fullName>Number</fullName>
+                <default>false</default>
+                <label>Number</label>
+            </value>
+            <value>
+                <fullName>Parameter</fullName>
+                <default>false</default>
+                <label>Parameter</label>
+            </value>
+            <value>
+                <fullName>Picklist</fullName>
+                <default>false</default>
+                <label>Picklist</label>
+            </value>
+            <value>
+                <fullName>Text</fullName>
+                <default>false</default>
+                <label>Text</label>
+            </value>
+            <value>
+                <fullName>Text (30,000)</fullName>
+                <default>false</default>
+                <label>Text (30,000)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

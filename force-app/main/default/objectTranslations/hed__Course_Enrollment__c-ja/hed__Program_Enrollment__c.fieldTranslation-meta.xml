@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>学生の場合、その学生の主プログラム登録。通常、高等教育では、これは学生の専攻を表します。</help>
+    <label><!-- Program Enrollment ID --></label>
+    <name>hed__Program_Enrollment__c</name>
+    <relationshipLabel><!-- Course Connections --></relationshipLabel>
+</CustomFieldTranslation>

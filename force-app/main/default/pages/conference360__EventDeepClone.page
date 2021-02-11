@@ -1,0 +1,17 @@
+<apex:page standardController="conference360__Event__c" extensions="conference360.EventDeepCloneController">
+	<apex:pageMessages />
+
+	<apex:includeLightning />
+	<div id="lDiv" />
+
+	<script>
+	var nameSpacePrefix = '{!JSENCODE(nameSpacePrefix)}';
+	if (nameSpacePrefix == '') {
+		nameSpacePrefix = 'c';
+	}
+	$Lightning.use(nameSpacePrefix + ':EventDeepCloneLtngApp', function() {
+		$Lightning.createComponent(nameSpacePrefix + ':EventDeepClone', {'recordId':'{!JSENCODE(eventId)}'}, 'lDiv', function(cmp) {
+		});
+	});
+	</script>
+</apex:page>

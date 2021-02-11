@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Detalle de dirección de calle adicional para esta dirección, como Habitación o Apartamento.</help>
+    <label><!-- Mailing Street2 --></label>
+    <name>hed__MailingStreet2__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Opcionalmente indica las instalaciones de las que forma parte. Por ejemplo, si estas instalaciones son un aula, las instalaciones principales serían el edificio en el que se encuentra el aula.</help>
+    <label><!-- Parent Facility --></label>
+    <name>hed__Parent_Facility__c</name>
+    <relationshipLabel><!-- Facilities --></relationshipLabel>
+</CustomFieldTranslation>

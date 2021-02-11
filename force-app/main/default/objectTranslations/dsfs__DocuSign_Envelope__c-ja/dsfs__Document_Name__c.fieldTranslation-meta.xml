@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>これは、組織の Salesforce の [文書] タブ内にある PDF 文書のリストです。DocuSign で送信するためには、Salesforce の [文書] タブ内のいずれかのフォルダに PDF を追加する必要があります。他の形式で送信するには、[詳細] をクリックします。</help>
+    <label><!-- Document Name --></label>
+    <name>dsfs__Document_Name__c</name>
+</CustomFieldTranslation>

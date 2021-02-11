@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>conference360__Decimal_Separator__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Choose . to display &quot;1.45&quot; or , to display &quot;1,45&quot;.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Choose . to display &quot;1.45&quot; or , to display &quot;1,45&quot;.</inlineHelpText>
+    <label>Decimal Separator</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>.</fullName>
+                <default>true</default>
+                <label>.</label>
+            </value>
+            <value>
+                <fullName>,</fullName>
+                <default>false</default>
+                <label>,</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

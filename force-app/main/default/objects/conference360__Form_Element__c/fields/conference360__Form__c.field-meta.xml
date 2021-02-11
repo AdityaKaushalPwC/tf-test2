@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>conference360__Form__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>The Form for this Form Element.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The Form for this Form Element.</inlineHelpText>
+    <label>Form</label>
+    <referenceTo>conference360__Form__c</referenceTo>
+    <relationshipLabel>Form Elements</relationshipLabel>
+    <relationshipName>Form_Elements</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

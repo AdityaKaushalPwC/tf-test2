@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Jos koulusi käyttää numeroarvosanoja, kirjoita opiskelijan ansaitsema numeroarvosana.</help>
+    <label><!-- Numerical Grade --></label>
+    <name>hed__Numerical_Grade__c</name>
+</CustomFieldTranslation>

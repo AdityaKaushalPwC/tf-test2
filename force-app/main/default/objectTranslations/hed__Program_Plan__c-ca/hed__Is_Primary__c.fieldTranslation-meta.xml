@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Indica que es tracta del pla de programa actualment vigent per al programa acadèmic seleccionat.</help>
+    <label><!-- Is Primary --></label>
+    <name>hed__Is_Primary__c</name>
+</CustomFieldTranslation>

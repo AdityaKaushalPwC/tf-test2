@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Der Programmplan, der alle für diesen Studenten geltenden Programmanforderungen enthält.</help>
+    <label><!-- Program Plan --></label>
+    <name>hed__Program_Plan__c</name>
+    <relationshipLabel><!-- Program Enrollments --></relationshipLabel>
+</CustomFieldTranslation>

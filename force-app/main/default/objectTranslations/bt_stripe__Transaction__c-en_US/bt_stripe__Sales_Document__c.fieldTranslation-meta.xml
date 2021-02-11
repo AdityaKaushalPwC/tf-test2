@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- The Sales document related to the transaction. --></help>
+    <label><!-- Sales Document (Invoice) --></label>
+    <name>bt_stripe__Sales_Document__c</name>
+    <relationshipLabel><!-- Transactions --></relationshipLabel>
+</CustomFieldTranslation>

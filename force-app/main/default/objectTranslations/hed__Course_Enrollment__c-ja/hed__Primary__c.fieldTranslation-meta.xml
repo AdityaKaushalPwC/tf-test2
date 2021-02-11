@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>教職員メンバーの場合、その教職員が開講科目の主教職員 (主任講師など) であることを示します。</help>
+    <label><!-- Primary --></label>
+    <name>hed__Primary__c</name>
+</CustomFieldTranslation>

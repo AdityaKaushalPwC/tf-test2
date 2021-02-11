@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>VALOR ASSOCIADO À FUNÇÃO DE DESTINATÁRIO DO DOCUSIGN. ESTE VALOR É USADO PARA MAPEAR OS LINKS EM DOCUMENTOS.</help>
+    <label><!-- RoleValue --></label>
+    <name>dsfs__RoleValue__c</name>
+</CustomFieldTranslation>

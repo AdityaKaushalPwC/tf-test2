@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>conference360__Event_Auth_Timestamp__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <inlineHelpText>The datetime the user did the Event Auth from the setup wizard -will only be set if the auth was successful. If the customer needs to do the Auth again with another user, delete the value in this field and they&apos;ll be able to do the Auth again.</inlineHelpText>
+    <label>Event Auth Timestamp</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>DateTime</type>
+</CustomField>

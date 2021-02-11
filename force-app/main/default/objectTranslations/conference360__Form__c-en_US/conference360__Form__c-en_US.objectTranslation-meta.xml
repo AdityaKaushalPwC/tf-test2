@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <webLinks>
+        <label><!-- Form_Preview --></label>
+        <name>conference360__Form_Preview</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- New_FE_Beta --></label>
+        <name>conference360__New_FE_Beta</name>
+    </webLinks>
+</CustomObjectTranslation>

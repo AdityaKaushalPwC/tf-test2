@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>conference360__Registered_Attendees</fullName>
+    <columns>conference360__First_Name__c</columns>
+    <columns>conference360__Last_Name__c</columns>
+    <columns>conference360__Event_Name__c</columns>
+    <columns>conference360__Event_Start_Date__c</columns>
+    <columns>conference360__Registration_Status__c</columns>
+    <columns>conference360__Attendance_Status__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>conference360__Registration_Status__c</field>
+        <operation>equals</operation>
+        <value>Registered</value>
+    </filters>
+    <filters>
+        <field>conference360__Event_Start_Date__c</field>
+        <operation>equals</operation>
+        <value>THIS_WEEK</value>
+    </filters>
+    <label>Registered Attendees This Week</label>
+</ListView>

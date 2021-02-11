@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Check to make amount field read-only for community users --></help>
+    <label><!-- Disable Amount in Communities --></label>
+    <name>bt_stripe__Disable_Amount_in_Communities__c</name>
+</CustomFieldTranslation>

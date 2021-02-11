@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <recordTypes>
+        <description><!-- Evidence text and an optional file upload --></description>
+        <label><!-- Basic Response --></label>
+        <name>bt_stripe__Basic_Response</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Access to software, files, or digital experiences. For example: apps, SaaS, MP3s, digitally-delivered tickets. --></description>
+        <label><!-- Digital Product --></label>
+        <name>bt_stripe__Digital_Product</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Labor or assistance provided on-location or remotely. For example: home-cleaning services, electronics repair, transportation. --></description>
+        <label><!-- Offline Service --></label>
+        <name>bt_stripe__Offline_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Anything that was physically delivered or shipped to the customer. For example: clothing, electronics, groceries. --></description>
+        <label><!-- Physical Product --></label>
+        <name>bt_stripe__Physical_Product</name>
+    </recordTypes>
+    <webLinks>
+        <label><!-- Submit --></label>
+        <name>bt_stripe__Submit</name>
+    </webLinks>
+</CustomObjectTranslation>

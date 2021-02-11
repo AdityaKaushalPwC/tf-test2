@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>学期の種別 (セメスター、クォーター、学年度など)、</help>
+    <label><!-- Type --></label>
+    <name>hed__Type__c</name>
+    <picklistValues>
+        <masterLabel>Part of Term</masterLabel>
+        <translation>学期のパート</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Quarter</masterLabel>
+        <translation>クォーター</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>School Year</masterLabel>
+        <translation>学年度</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Semester</masterLabel>
+        <translation>セメスター</translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,44 @@
+<apex:page standardController="conference360__Event__c" extensions="conference360.EventKeywordsManageController">
+	<c:BT_Common />
+
+	<apex:pageMessages />
+	<apex:form >
+		<apex:inputHidden value="{!conference360__Event__c.Id}"/>
+	</apex:form>
+
+	<apex:includeLightning />
+	<div id="lDiv"/>
+	<script>
+	var nameSpacePrefix = '{!JSENCODE(nameSpacePrefix)}';
+
+	if (nameSpacePrefix == '') {
+		nameSpacePrefix = 'c';
+	}
+
+	document.addEventListener("errorFromLWC", function(event) {
+		console.log('vf event data window listener => ', event.detail);
+		showErrorToast(event.detail.message);
+	});
+	document.addEventListener("btMessageFromLWC", function(event) {
+		console.log('vf event data window listener => ', event.detail);
+		showSuccessToast(event.detail.message,'');
+	});
+
+	function inLightningExperience() {
+		return 'Theme4d' === '{!$User.UIThemeDisplayed}';
+	}
+
+	document.addEventListener("redirectFromLWC", function(event){
+		console.log('vf event data window listener => ', event.detail);
+		if (inLightningExperience()) {
+			sforce.one.navigateToSObject(event.detail.recordId, event.detail.recordMode);
+		} else {
+			window.location.assign('/' + event.detail.recordId);
+		}
+	});
+
+	$Lightning.use(nameSpacePrefix + ':EventKeywordsManageLtngApp', function() {
+		$Lightning.createComponent(nameSpacePrefix + ':eventKeywordsManage', {'recordId':'{!JSENCODE(recordId)}', 'isInVisualForce':true}, 'lDiv', function(cmp) { });
+	});
+	</script>
+</apex:page>

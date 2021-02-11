@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Waitlist email that goes out to the Attendees added to a waitlist.</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Waitlisted Email</name>
+    <style>none</style>
+    <subject>You have been added to the {!conference360__Attendee__c.conference360__Event_Name__c} waitlist</subject>
+    <textOnly>Hi {!conference360__Attendee__c.conference360__First_Name__c},
+
+Due to the high number of registrations, you have been added to the waiting list.
+
+If an opening becomes available, you will receive a second email indicating that you have been added and can finish the registration for the event.
+
+Event Details Event: {!conference360__Attendee__c.conference360__Event_Name__c}
+Date: {!conference360__Attendee__c.conference360__Event_Start_Date__c} 
+Time: {!conference360__Attendee__c.conference360__Event_Start_Time__c} - {!conference360__Attendee__c.conference360__Event_End_Time__c}
+
+
+
+Thank you, {!conference360__Attendee__c.conference360__Event_Organizer_Name__c}</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>conference360__Event__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <inlineHelpText>This field will be set in the Payments package if a checkout submission is for an Event. This will allow us to create the Attendees in the Events package and do any necessary validations.</inlineHelpText>
+    <label>Event</label>
+    <referenceTo>conference360__Event__c</referenceTo>
+    <relationshipLabel>Checkout Submissions</relationshipLabel>
+    <relationshipName>Checkout_Submissions</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

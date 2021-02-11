@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>conference360__Event__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>The Event related to this Expense Entry. Auto-populates when saving if this Entry is related to a Budget &amp; Expense record that has the Event populated.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The Event related to this Expense Entry. Auto-populates when saving if this Entry is related to a Budget &amp; Expense record that has the Event populated.</inlineHelpText>
+    <label>Event</label>
+    <referenceTo>conference360__Event__c</referenceTo>
+    <relationshipLabel>Expense Entries</relationshipLabel>
+    <relationshipName>Expense_Entries</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

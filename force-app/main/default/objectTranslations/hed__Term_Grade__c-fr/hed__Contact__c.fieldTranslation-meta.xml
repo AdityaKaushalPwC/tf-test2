@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>L’étudiant pour qui la note est enregistrée. Lorsqu’il est laissé vide, le champ Contact est rempli automatiquement à partir de la connexion de cours valide lors de l’enregistrement.</help>
+    <label><!-- Contact --></label>
+    <name>hed__Contact__c</name>
+    <relationshipLabel><!-- Term Grades --></relationshipLabel>
+</CustomFieldTranslation>

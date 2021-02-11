@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>必要に応じて、この施設を含む施設を示します。たとえば、この施設が教室の場合、親施設はこの教室を含むビルになります。</help>
+    <label><!-- Parent Facility --></label>
+    <name>hed__Parent_Facility__c</name>
+    <relationshipLabel><!-- Facilities --></relationshipLabel>
+</CustomFieldTranslation>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>conference360__FAQ__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <inlineHelpText>Set the FAQ tab visibility. The pre-registration and post-registration options are for Event Portal customers.</inlineHelpText>
+    <label>FAQ</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Always</fullName>
+                <default>true</default>
+                <label>Always</label>
+            </value>
+            <value>
+                <fullName>Pre-Registration</fullName>
+                <default>false</default>
+                <label>Pre-Registration</label>
+            </value>
+            <value>
+                <fullName>Post-Registration</fullName>
+                <default>false</default>
+                <label>Post-Registration</label>
+            </value>
+            <value>
+                <fullName>Hide</fullName>
+                <default>false</default>
+                <label>Hide</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

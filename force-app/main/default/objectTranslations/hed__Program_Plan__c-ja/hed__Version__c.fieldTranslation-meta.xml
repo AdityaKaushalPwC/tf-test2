@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>プログラムプランのバージョン (2020 年春など)。</help>
+    <label><!-- Version --></label>
+    <name>hed__Version__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Opcionalmente, seleccione el plazo del que forma parte este plazo. Por ejemplo, si este plazo está en el Trimestre de otoño de 2020, el plazo principal sería el Año lectivo 2020/2021.</help>
+    <label><!-- Parent Term --></label>
+    <name>hed__Parent_Term__c</name>
+    <relationshipLabel><!-- Terms --></relationshipLabel>
+</CustomFieldTranslation>

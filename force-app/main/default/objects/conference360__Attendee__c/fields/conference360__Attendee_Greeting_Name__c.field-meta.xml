@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>conference360__Attendee_Greeting_Name__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <formula>IF( ISPICKVAL(conference360__Event__r.conference360__Event_Settings__r.conference360__Greeting_Name_Formality__c, &quot;Formal&quot;), TEXT(conference360__Salutation__c) + &quot; &quot; + conference360__Attendee_Full_Name__c,
+
+IF( ISPICKVAL(conference360__Event__r.conference360__Event_Settings__r.conference360__Greeting_Name_Formality__c, &quot;Informal First&quot;), conference360__First_Name__c,
+
+IF( ISPICKVAL(conference360__Event__r.conference360__Event_Settings__r.conference360__Greeting_Name_Formality__c, &quot;Informal Full&quot;), conference360__Attendee_Full_Name__c,conference360__Attendee_Full_Name__c)))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Attendee Greeting Name</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

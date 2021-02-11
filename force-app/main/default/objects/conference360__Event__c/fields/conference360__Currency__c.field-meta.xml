@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>conference360__Currency__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The currency to be shown and processed in for event pricing and checkouts.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The currency to be shown and processed in for event pricing and checkouts.</inlineHelpText>
+    <label>Currency</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>bt_stripe__Stripe_Currencies</valueSetName>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,73 @@
+<apex:page action="{!doRefreshFactory}" standardController="Contact" extensions="conference360.RefreshPlatformCacheController" tabStyle="Contact" sidebar="true" showHeader="true">
+	<c:BT_Common />
+		<!-- setting max-width here to it doesn't stretch across the entire screen on desktops - this also keeps it looking good for mobile -->
+	<apex:outputpanel layout="block" style="max-width:420px;margin:auto;padding:10px;">
+
+		<!-- put in an outer container so we can easily hide everything -->
+		<div id="outerContainer" style="padding:0px;">
+			<article class="slds-card">
+				<div class="slds-card__header slds-grid">
+					<header class="slds-media slds-media_center slds-has-flexi-truncate">
+						<div class="slds-media__figure">
+							<span class="slds-icon_container slds-icon-custom-custom41" title="auth">
+								<svg class="slds-icon slds-icon_small" aria-hidden="true">
+									<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="{!URLFOR($Asset.SLDS, 'assets/icons/custom-sprite/svg/symbols.svg#custom41')}"></use>
+								</svg>
+								<span class="slds-assistive-text">Refresh Platform Cache</span>
+							</span>
+						</div>
+						<div class="slds-media__body">
+							<h2 class="slds-card__header-title">
+								<span>Refreshing Platform Cache.</span>
+							</h2>
+						</div>
+					</header>
+				</div>
+				<div class="slds-card__body slds-card__body_inner">
+					<br/>
+					Refreshing Platform Cache for {!Contact.Name}.
+				</div>
+				<footer class="slds-card__footer">
+					<apex:form id="theForm">
+						<apex:inputHidden value="{!errorMessage}" id="errorMessage" />
+						<apex:actionFunction name="refreshCache" action="{!doRefreshFactory}" rerender="errorMessage" oncomplete="allDone()"></apex:actionFunction>
+					</apex:form>
+					<apex:outputPanel rendered="{!!error}">
+						<button id="actionButton" class="slds-button slds-button--brand slds-not-selected" aria-live="assertive" onclick="refreshPlatformCache()">
+							<span class="slds-text-not-selected">Refresh Platform Cache</span>
+						</button>
+					</apex:outputPanel>
+
+					<button id="back" class="slds-button slds-button_neutral slds-not-selected" aria-live="assertive" onclick="navigateTo('{!Contact.Id}')">
+						<span class="slds-text-not-selected">Return To Record</span>
+					</button>
+				</footer>
+			</article>
+		</div>
+	</apex:outputpanel>
+
+	<script>
+	window.onload = function() {
+		if ({!error}) { // output error from constructor validation if set
+			showErrorToast("{!JSENCODE(errorMessage)}");
+		}
+	};
+
+	function refreshPlatformCache() {
+		toggleSpinner(); // show spinner
+		refreshCache();
+	}
+
+	function allDone() {
+		toggleSpinner(); // hide spinner
+		var errorMessage = document.getElementById('{!$Component.theForm.errorMessage}').value;
+		console.log('Do we have a error '+errorMessage);
+		if (errorMessage) {
+			showErrorToast(errorMessage);
+		} else { // success!
+			document.getElementById('actionButton').style.display = 'none'; // hide button
+			showSuccessToast('The Platform Cache has been refreshed.', '{!Contact.Id}');
+		}
+	}
+	</script>
+</apex:page>

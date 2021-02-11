@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>このデフォルトの電子メールの件名テキストを変更すると、そのテキストが DocuSign 受信者が署名する通知に件名として表示されます。</help>
+    <label><!-- DocuSign Email Subject --></label>
+    <name>dsfs__DocuSign_Email_Subject__c</name>
+</CustomFieldTranslation>

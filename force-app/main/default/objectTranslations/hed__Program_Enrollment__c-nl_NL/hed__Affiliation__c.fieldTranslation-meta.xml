@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Dit veld wordt automatisch ingevuld met de affiliatierecord die de inschrijving van de student in dit programma vertegenwoordigt.</help>
+    <label><!-- Affiliation --></label>
+    <name>hed__Affiliation__c</name>
+    <relationshipLabel><!-- Program Enrollments --></relationshipLabel>
+</CustomFieldTranslation>

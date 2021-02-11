@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>El nombre de crèdits que l&apos;alumne ha intentat completar fins ara. Això inclou crèdits en curs i cursos suspensos pels quals no ha rebut cap crèdit.</help>
+    <label><!-- Credits Attempted --></label>
+    <name>hed__Credits_Attempted__c</name>
+</CustomFieldTranslation>

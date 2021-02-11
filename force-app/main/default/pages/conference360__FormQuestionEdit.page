@@ -1,0 +1,17 @@
+<apex:page standardController="conference360__Form_Element__c" extensions="conference360.FormDesignerController">
+	<apex:pageMessages />
+	<apex:includeLightning />
+	<div id="lDiv"/>
+	<script>
+	var nameSpacePrefix = '{!JSENCODE(nameSpacePrefix)}';
+	var formId;
+	if (nameSpacePrefix == '') {
+		nameSpacePrefix = 'c';
+	}
+	//console.log('nameSpacePrefix = {!JSENCODE(nameSpacePrefix)}');
+	//console.log('formId = {!JSENCODE(formId)}');
+	$Lightning.use(nameSpacePrefix + ':FormBuilderLtngApp', function() {
+		$Lightning.createComponent(nameSpacePrefix + ':EventsQandA', {'recordId':'{!JSENCODE(formId)}', 'isInVisualForce':true}, 'lDiv', function(cmp) { });
+	});
+	</script>
+</apex:page>

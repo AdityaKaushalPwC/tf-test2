@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Email that goes out to the Attendees who have been removed from the waitlist.</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Removed from the Waitlist Email</name>
+    <style>none</style>
+    <subject>Waitlist notification for {!conference360__Attendee__c.conference360__Event_Name__c}</subject>
+    <textOnly>Hi {!conference360__Attendee__c.conference360__First_Name__c},
+
+Good News! You are no longer waitlisted for {!conference360__Attendee__c.conference360__Event_Name__c}. Please click on the Event Details link below to complete your registration. 
+
+
+Event Details Event: {!conference360__Attendee__c.conference360__Event_Name__c}
+Date: {!conference360__Attendee__c.conference360__Event_Start_Date__c} to {!conference360__Attendee__c.conference360__Event_End_Date__c}
+Time: {!conference360__Attendee__c.conference360__Event_Start_Time__c} - {!conference360__Attendee__c.conference360__Event_End_Time__c}
+
+{!conference360__Attendee__c.conference360__Event_Description__c}
+
+{!conference360__Attendee__c.conference360__AttendeeLink__c}
+
+Thank you!</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

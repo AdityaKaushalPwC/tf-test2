@@ -1,0 +1,102 @@
+<apex:page standardController="conference360__Attendee__c" extensions="conference360.AttendeeAddToWebinarController" action="{!validate}">
+
+	<c:BT_Common />
+		<!-- show the auth button based on type of provider -->
+		<!-- setting max-width here to it doesn't stretch across the entire screen on desktops - this also keeps it looking good for mobile -->
+	<apex:outputpanel layout="block" style="max-width:420px;margin:auto;padding:10px;">
+
+		<!-- put in an outer container so we can easily hide everything -->
+		<div id="outerContainer" style="padding:0px;">
+			<article class="slds-card">
+				<div class="slds-card__header slds-grid">
+					<header class="slds-media slds-media_center slds-has-flexi-truncate">
+						<div class="slds-media__figure">
+							<span class="slds-icon_container slds-icon-custom-custom41" title="auth">
+								<svg class="slds-icon slds-icon_small" aria-hidden="true">
+									<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="{!URLFOR($Asset.SLDS, 'assets/icons/custom-sprite/svg/symbols.svg#custom41')}"></use>
+								</svg>
+								<span class="slds-assistive-text">auth</span>
+							</span>
+						</div>
+						<div class="slds-media__body">
+							<apex:outputPanel rendered="{!AND(conference360__Attendee__c.Event__r.Webinar_Account__r.conference360__Provider__c!='Zoom Meeting',conference360__Attendee__c.Event__r.Webinar_Account__r.conference360__Provider__c!='WebEx')}">
+								<h2 class="slds-card__header-title">
+									<span>Add Attendee To Webinar</span>
+								</h2>
+							</apex:outputPanel>
+							<apex:outputPanel rendered="{!OR(conference360__Attendee__c.Event__r.Webinar_Account__r.conference360__Provider__c=='Zoom Meeting',conference360__Attendee__c.Event__r.Webinar_Account__r.conference360__Provider__c=='WebEx')}">
+								<h2 class="slds-card__header-title">
+									<span>Add Attendee To Meeting</span>
+								</h2>
+							</apex:outputPanel>
+						</div>
+					</header>
+				</div>
+				<div class="slds-card__body slds-card__body_inner">
+					<apex:outputPanel rendered="{!AND(conference360__Attendee__c.Event__r.Webinar_Account__r.conference360__Provider__c!='Zoom Meeting',conference360__Attendee__c.Event__r.Webinar_Account__r.conference360__Provider__c!='WebEx')}">
+						<br/>
+						Registering Attendee {!conference360__Attendee__c.conference360__First_Name__c}  {!conference360__Attendee__c.conference360__Last_Name__c} for the webinar.
+					</apex:outputPanel>
+					<apex:outputPanel rendered="{!OR(conference360__Attendee__c.Event__r.Webinar_Account__r.conference360__Provider__c=='Zoom Meeting',conference360__Attendee__c.Event__r.Webinar_Account__r.conference360__Provider__c=='WebEx')}">
+						<br/>
+						Registering Attendee {!conference360__Attendee__c.conference360__First_Name__c}  {!conference360__Attendee__c.conference360__Last_Name__c} for the meeting.
+					</apex:outputPanel>
+				</div>
+				<footer class="slds-card__footer">
+					<apex:form id="theForm">
+						<apex:inputHidden value="{!errorMessage}" id="errorMessage" />
+						<apex:inputHidden value="{!conference360__Attendee__c.conference360__Event__c}" />
+						<apex:inputHidden value="{!conference360__Attendee__c.Event__r.conference360__Webinar_Account__c}" />
+						<apex:inputHidden value="{!conference360__Attendee__c.Event__r.conference360__Webinar_ID__c}" />
+						<apex:inputHidden value="{!conference360__Attendee__c.Event__r.conference360__Webinar_URL__c}" />
+						<apex:inputHidden value="{!conference360__Attendee__c.Event__r.conference360__Zoom_Type__c}" id="zoomType" />
+						<apex:inputHidden value="{!conference360__Attendee__c.conference360__Registration_Status__c}" />
+						<apex:inputHidden value="{!conference360__Attendee__c.conference360__Email__c}" />
+						<apex:inputHidden value="{!conference360__Attendee__c.conference360__Attendee_Full_Name__c}" />
+
+						<apex:actionFunction name="createAttendee" action="{!processAddAttendeeCreate}" rerender="errorMessage" oncomplete="allDone()">
+						</apex:actionFunction>
+					</apex:form>
+					<apex:outputPanel rendered="{!!error}">
+						<button id="actionButton" class="slds-button slds-button--brand slds-not-selected" aria-live="assertive" onclick="createAttendeeJS()">
+							<span class="slds-text-not-selected">Register</span>
+						</button>
+					</apex:outputPanel>
+					<button id="back" class="slds-button slds-button_neutral slds-not-selected" aria-live="assertive" onclick="navigateTo('{!Attendee__c.Id}')">
+						<span class="slds-text-not-selected">Return To Record</span>
+					</button>
+				</footer>
+			</article>
+		</div>
+	</apex:outputpanel>
+	<script>
+	window.onload = function() {
+		if ({!error}) { // this attribute is Boolean - false positive on Reflected/Stored XSS
+			showErrorToast("{!JSENCODE(errorMessage)}");
+		}
+	};
+
+	function createAttendeeJS() {
+		toggleSpinner(); // show spinner
+		// this next method is a apex:actionFunction
+		createAttendee();
+	}
+
+	function allDone() {
+		toggleSpinner(); // hide spinner
+		var errorMessage = document.getElementById('{!$Component.theForm.errorMessage}').value;
+		if (errorMessage) {
+			showErrorToast(errorMessage);
+		} else { // success!
+			document.getElementById('actionButton').style.display = 'none'; // hide button
+			var zoomType = document.getElementById('{!$Component.theForm.zoomType}').value;
+			if (zoomType) {
+				showSuccessToast('{!conference360__Attendee__c.conference360__Attendee_Full_Name__c} was added to the {!Attendee__c.Event__r.Name} '
+					+ zoomType + '.', '{!Attendee__c.Id}');
+			} else {
+				showSuccessToast('{!conference360__Attendee__c.conference360__Attendee_Full_Name__c} was added to the {!Attendee__c.Event__r.Name} webinar.', '{!Attendee__c.Id}');
+			}
+		}
+	}
+	</script>
+</apex:page>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Wenn Ihre Bildungseinrichtung Buchstabennoten verwendet, geben Sie die Note des Schülers/Studenten ein, z. B. A, B, C usw.</help>
+    <label><!-- Letter Grade --></label>
+    <name>hed__Letter_Grade__c</name>
+</CustomFieldTranslation>

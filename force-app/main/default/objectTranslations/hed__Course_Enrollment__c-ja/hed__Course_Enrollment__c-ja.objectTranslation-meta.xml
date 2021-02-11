@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>コース接続</value>
+    </caseValues>
+    <nameFieldLabel>履修科目 ID</nameFieldLabel>
+    <recordTypes>
+        <description>テストで使用するデフォルトレコードタイプ。このレコードタイプはシステム管理者に対してのみ有効化され、表示される必要があります。</description>
+        <label>デフォルト</label>
+        <name>Default</name>
+    </recordTypes>
+    <recordTypes>
+        <description>教職員履修科目</description>
+        <label>教職員</label>
+        <name>Faculty</name>
+    </recordTypes>
+    <recordTypes>
+        <description>学生履修科目</description>
+        <label>学生</label>
+        <name>Student</name>
+    </recordTypes>
+</CustomObjectTranslation>

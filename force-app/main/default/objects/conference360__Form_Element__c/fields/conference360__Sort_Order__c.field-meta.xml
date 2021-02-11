@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>conference360__Sort_Order__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Set the order for the questions/Form Elements.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Set the order for the questions/Form Elements.</inlineHelpText>
+    <label>Sort Order</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

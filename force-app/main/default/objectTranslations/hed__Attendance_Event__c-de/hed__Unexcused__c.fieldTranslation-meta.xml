@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Kennzeichnet eine unentschuldigte Verspätung oder ein unentschuldigtes Fehlen.</help>
+    <label><!-- Unexcused --></label>
+    <name>hed__Unexcused__c</name>
+</CustomFieldTranslation>

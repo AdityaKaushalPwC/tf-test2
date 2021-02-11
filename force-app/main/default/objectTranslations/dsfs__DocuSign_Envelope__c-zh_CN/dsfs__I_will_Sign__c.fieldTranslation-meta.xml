@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>如果要将自己添加为此文档的其他收件人/签名者，请单击此复选框。 如果不选中，您会在联系人签署文档后收到通知，但您自己无法签署该文档。</help>
+    <label><!-- I will also Sign --></label>
+    <name>dsfs__I_will_Sign__c</name>
+</CustomFieldTranslation>

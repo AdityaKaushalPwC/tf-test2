@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>CUST_NAME</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>conference360__Budget_Expense__c.conference360__Estimated_Amount__c</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>conference360__Budget_Expense__c.conference360__Actual_Amount__c</field>
+    </columns>
+    <columns>
+        <field>conference360__Budget_Expense__c.conference360__Priority__c</field>
+    </columns>
+    <columns>
+        <field>conference360__Budget_Expense__c.conference360__Description__c</field>
+    </columns>
+    <description>Budget and Expense summaries across all Events in the org.</description>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>conference360__Budget_Expense__c.conference360__Event__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>conference360__Budget_Expense__c.conference360__Category__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>conference360__Budget_Expense__c.conference360__Subcategory__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>5) Budget &amp; Expense Summary - All Events</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CustomEntity$conference360__Budget_Expense__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>CUST_CREATED_DATE</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

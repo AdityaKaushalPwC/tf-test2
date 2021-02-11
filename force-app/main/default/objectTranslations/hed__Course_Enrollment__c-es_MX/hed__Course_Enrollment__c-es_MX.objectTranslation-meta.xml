@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Enlace de curso</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Enlaces de curso</value>
+    </caseValues>
+    <gender>Masculine</gender>
+    <nameFieldLabel>Id. de Enlace de cursos</nameFieldLabel>
+    <recordTypes>
+        <description>Un tipo de registro predeterminado para el uso en pruebas. Este tipo de registro solo se debe activar y ser visible para administradores del sistema.</description>
+        <label>Predeterminado</label>
+        <name>Default</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Enlace de curso de una facultad</description>
+        <label>Facultad</label>
+        <name>Faculty</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Enlace de curso de un estudiante</description>
+        <label>Estudiante</label>
+        <name>Student</name>
+    </recordTypes>
+</CustomObjectTranslation>

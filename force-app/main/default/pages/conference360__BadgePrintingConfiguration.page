@@ -1,0 +1,22 @@
+<apex:page standardController="conference360__Badge_Printing_Configuration_Details__c" extensions="conference360.BadgePrintingConfigurationController">
+	<apex:pageMessages />
+
+	<apex:form >
+		<apex:inputHidden value="{!conference360__Badge_Printing_Configuration_Details__c.conference360__Badge_Printing_Configuration__c}" />
+		<apex:inputHidden value="{!conference360__Badge_Printing_Configuration_Details__c.Id}" />
+	</apex:form>
+
+	<apex:includeLightning />
+	<div id="lDiv"/>
+	<script>
+	var nameSpacePrefix = '{!JSENCODE(nameSpacePrefix)}';
+
+	if (nameSpacePrefix == '') {
+		nameSpacePrefix = 'c';
+	}
+
+	$Lightning.use(nameSpacePrefix + ':BadgePrintingConfigurationLtngApp', function() {
+		$Lightning.createComponent(nameSpacePrefix + ':badgeConfigurationDetail', {'badgeConfigId':'{!JSENCODE(badgeConfigId)}', 'isInVisualForce':true}, 'lDiv', function(cmp) { });
+	});
+	</script>
+</apex:page>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>bt_stripe__View_In_Stripe__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <formula>IF(bt_stripe__Customer__r.bt_stripe__Payment_Gateway__r.bt_stripe__Test_Mode__c ,HYPERLINK(&apos;https://dashboard.stripe.com/test/invoices/&apos;+bt_stripe__Stripe_Invoice_Id__c,&apos;View&apos;),HYPERLINK(&apos;https://dashboard.stripe.com/invoices/&apos;+bt_stripe__Stripe_Invoice_Id__c,&apos;View&apos;))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Stripe URL</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

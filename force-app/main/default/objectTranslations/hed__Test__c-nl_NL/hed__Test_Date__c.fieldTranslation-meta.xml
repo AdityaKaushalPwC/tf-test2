@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>De datum waarop de toets volgens de aanvrager of de officiële bron is gestart.</help>
+    <label><!-- Test Date --></label>
+    <name>hed__Test_Date__c</name>
+</CustomFieldTranslation>

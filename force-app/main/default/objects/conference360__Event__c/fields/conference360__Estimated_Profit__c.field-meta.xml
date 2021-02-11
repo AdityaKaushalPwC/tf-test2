@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>conference360__Estimated_Profit__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The estimated amount of profit for this Event.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The estimated amount of profit for this Event.</inlineHelpText>
+    <label>Estimated Profit</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

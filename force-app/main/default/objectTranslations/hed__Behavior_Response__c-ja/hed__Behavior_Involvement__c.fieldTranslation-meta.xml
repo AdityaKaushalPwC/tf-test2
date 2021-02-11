@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>この行動対応の対象となる行動関与レコード。</help>
+    <label><!-- Behavior Involvement --></label>
+    <name>hed__Behavior_Involvement__c</name>
+    <relationshipLabel><!-- Behavior Responses --></relationshipLabel>
+</CustomFieldTranslation>

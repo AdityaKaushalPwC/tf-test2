@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>conference360__Badge_Printing_Configuration__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>The Badge Printing Configuration for this Event.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The Badge Printing Configuration for this Event.</inlineHelpText>
+    <label>Badge Printing Configuration</label>
+    <referenceTo>conference360__Badge_Printing_Configuration__c</referenceTo>
+    <relationshipLabel>Event Settings</relationshipLabel>
+    <relationshipName>Event_Settings</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

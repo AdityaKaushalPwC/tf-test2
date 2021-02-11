@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>conference360__Type__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <inlineHelpText>Category type for this session.</inlineHelpText>
+    <label>Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Attendee Registration</fullName>
+                <default>false</default>
+                <label>Attendee Registration</label>
+            </value>
+            <value>
+                <fullName>Awards Dinner</fullName>
+                <default>false</default>
+                <label>Awards Dinner</label>
+            </value>
+            <value>
+                <fullName>Breakfast</fullName>
+                <default>false</default>
+                <label>Breakfast</label>
+            </value>
+            <value>
+                <fullName>Breakout Session</fullName>
+                <default>false</default>
+                <label>Breakout Session</label>
+            </value>
+            <value>
+                <fullName>Exhibit Hall Open</fullName>
+                <default>false</default>
+                <label>Exhibit Hall Open</label>
+            </value>
+            <value>
+                <fullName>Gala</fullName>
+                <default>false</default>
+                <label>Gala</label>
+            </value>
+            <value>
+                <fullName>Happy Hour</fullName>
+                <default>false</default>
+                <label>Happy Hour</label>
+            </value>
+            <value>
+                <fullName>Keynote</fullName>
+                <default>false</default>
+                <label>Keynote</label>
+            </value>
+            <value>
+                <fullName>Luncheon</fullName>
+                <default>false</default>
+                <label>Luncheon</label>
+            </value>
+            <value>
+                <fullName>Meetup</fullName>
+                <default>false</default>
+                <label>Meetup</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Reception</fullName>
+                <default>false</default>
+                <label>Reception</label>
+            </value>
+            <value>
+                <fullName>Seminar</fullName>
+                <default>false</default>
+                <label>Seminar</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

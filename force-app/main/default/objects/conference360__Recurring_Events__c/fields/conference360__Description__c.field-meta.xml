@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>conference360__Description__c</fullName>
+    <deprecated>false</deprecated>
+    <description>An internal-facing description of what this Recurring Event is for.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>An internal-facing description of what this Recurring Event is for.</inlineHelpText>
+    <label>Description (Internal)</label>
+    <length>255</length>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

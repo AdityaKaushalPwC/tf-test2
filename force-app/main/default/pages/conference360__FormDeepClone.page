@@ -1,0 +1,5 @@
+<!-- todo: Deprecated 4/27/2020 - can't delete because this page is
+	referenced by the Clone_Deep Form__c action which can't be deleted  -->
+<apex:page standardController="conference360__Form__c">
+Deprecated. Use the standard clone.
+</apex:page>

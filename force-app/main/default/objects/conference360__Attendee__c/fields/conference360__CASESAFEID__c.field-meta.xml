@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>conference360__CASESAFEID__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Transforms the Salesforce record ID from 15 digits to 18 digits or use with QR code generation.</description>
+    <externalId>false</externalId>
+    <formula>CASESAFEID(Id)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Transforms the Salesforce record ID from 15 digits to 18 digits or use with QR code generation.</inlineHelpText>
+    <label>CASE SAFE ID</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

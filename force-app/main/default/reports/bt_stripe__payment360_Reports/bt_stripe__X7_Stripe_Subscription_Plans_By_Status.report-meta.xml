@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>CUST_NAME</field>
+    </columns>
+    <columns>
+        <field>bt_stripe__Subscription2__c.bt_stripe__Processed_Date_Created__c</field>
+    </columns>
+    <columns>
+        <field>CUST_CREATED_DATE</field>
+    </columns>
+    <columns>
+        <field>bt_stripe__Subscription2__c.bt_stripe__Billing_Cycle_Anchor_First_Invoice__c</field>
+    </columns>
+    <columns>
+        <field>bt_stripe__Subscription2__c.bt_stripe__Start__c</field>
+    </columns>
+    <description>All Subscriptions with a single related Plan, by Status. Subscriptions with multiple Plans should be viewed in a different report.</description>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>bt_stripe__Subscription2__c.bt_stripe__Status__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>bt_stripe__Subscription2__c.bt_stripe__Plan__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>7) Stripe-Subscription Plans By Status</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CustomEntity$bt_stripe__Subscription2__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <sortColumn>CUST_CREATED_DATE</sortColumn>
+    <sortOrder>Asc</sortOrder>
+    <timeFrameFilter>
+        <dateColumn>bt_stripe__Subscription2__c.bt_stripe__Billing_Cycle_Anchor_First_Invoice__c</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

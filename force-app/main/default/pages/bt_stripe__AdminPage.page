@@ -1,0 +1,13 @@
+<apex:page showHeader="true" sidebar="true" controller="bt_stripe.AdminPageController">
+	<apex:includeLightning />
+	<div id="lDiv" />
+	<script>
+		var nameSpacePrefix = '{!JSENCODE(nameSpacePrefix)}';
+		if (nameSpacePrefix == '') {
+			nameSpacePrefix = 'c';
+		}
+		$Lightning.use(nameSpacePrefix + ':AdminPage_lout', function() {
+			$Lightning.createComponent(nameSpacePrefix + ':AdminPage', { }, 'lDiv', function(cmp) { });
+		});
+	</script>
+</apex:page>

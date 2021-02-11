@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>DocuSign 수신인/서명인이 되려면 Salesforce에서 연락처를 선택하십시오.  유효한 이메일 주소가 있는 연락처만 DocuSign 수신인으로 사용할 수 있습니다. </help>
+    <label><!-- Contact to eSign Document --></label>
+    <name>dsfs__Contact2eSignDoc01__c</name>
+    <relationshipLabel><!-- DocuSign Envelope01 --></relationshipLabel>
+</CustomFieldTranslation>

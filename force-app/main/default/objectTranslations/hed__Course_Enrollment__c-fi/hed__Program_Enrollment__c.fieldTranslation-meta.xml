@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Opiskelijoille heidän ensisijainen ilmoittautumisensa. Korkeakoulussa tämä edustaa tyypillisesti opiskelijan akateemista pääainetta.</help>
+    <label><!-- Program Enrollment ID --></label>
+    <name>hed__Program_Enrollment__c</name>
+    <relationshipLabel><!-- Course Connections --></relationshipLabel>
+</CustomFieldTranslation>

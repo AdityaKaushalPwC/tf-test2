@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Envío de correo electrónico</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Envíos de correo electrónico</value>
+    </caseValues>
+    <gender>Masculine</gender>
+    <nameFieldLabel>Número de envío de correo electrónico</nameFieldLabel>
+    <recordTypes>
+        <label><!-- Queued Send Definition --></label>
+        <name>et4ae5__Queued_Send_Definition</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Send Definition --></label>
+        <name>et4ae5__Send_Definition</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Trackable Send Definition --></label>
+        <name>et4ae5__Trackable_Send_Definition</name>
+    </recordTypes>
+    <webLinks>
+        <label><!-- Cancel_Send --></label>
+        <name>et4ae5__Cancel_Send</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Delete_Individual_Tracking --></label>
+        <name>et4ae5__Delete_Individual_Tracking</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Request_Tracking_Immediately --></label>
+        <name>et4ae5__Request_Tracking_Immediately</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Support_Request --></label>
+        <name>et4ae5__Support_Request</name>
+    </webLinks>
+</CustomObjectTranslation>

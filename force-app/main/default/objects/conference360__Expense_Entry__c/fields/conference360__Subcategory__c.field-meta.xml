@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>conference360__Subcategory__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The Subcategory related to this Expense Entry. Auto-populates when saving if this Entry is related to a Budget &amp; Expense record that has the Subcategory populated.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The Subcategory related to this Expense Entry. Auto-populates when saving if this Entry is related to a Budget &amp; Expense record that has the Subcategory populated.</inlineHelpText>
+    <label>Subcategory</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>conference360__Category__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Microphones</fullName>
+                <default>false</default>
+                <label>Microphones</label>
+            </value>
+            <value>
+                <fullName>Screens and Projectors</fullName>
+                <default>false</default>
+                <label>Screens and Projectors</label>
+            </value>
+            <value>
+                <fullName>Internet and WiFi</fullName>
+                <default>false</default>
+                <label>Internet and WiFi</label>
+            </value>
+            <value>
+                <fullName>Meals</fullName>
+                <default>false</default>
+                <label>Meals</label>
+            </value>
+            <value>
+                <fullName>Beverage</fullName>
+                <default>false</default>
+                <label>Beverage</label>
+            </value>
+            <value>
+                <fullName>Bartending/Server</fullName>
+                <default>false</default>
+                <label>Bartending/Server</label>
+            </value>
+            <value>
+                <fullName>Tax</fullName>
+                <default>false</default>
+                <label>Tax</label>
+            </value>
+            <value>
+                <fullName>Gratuity</fullName>
+                <default>false</default>
+                <label>Gratuity</label>
+            </value>
+            <value>
+                <fullName>Lighting</fullName>
+                <default>false</default>
+                <label>Lighting</label>
+            </value>
+            <value>
+                <fullName>Flowers and centerpieces</fullName>
+                <default>false</default>
+                <label>Flowers and centerpieces</label>
+            </value>
+            <value>
+                <fullName>Balloons</fullName>
+                <default>false</default>
+                <label>Balloons</label>
+            </value>
+            <value>
+                <fullName>Venue/Room</fullName>
+                <default>false</default>
+                <label>Venue/Room</label>
+            </value>
+            <value>
+                <fullName>Security deposit</fullName>
+                <default>false</default>
+                <label>Security deposit</label>
+            </value>
+            <value>
+                <fullName>Insurance</fullName>
+                <default>false</default>
+                <label>Insurance</label>
+            </value>
+            <value>
+                <fullName>Parking</fullName>
+                <default>false</default>
+                <label>Parking</label>
+            </value>
+            <value>
+                <fullName>Linens, Table Skirting, and Chair Covers</fullName>
+                <default>false</default>
+                <label>Linens, Table Skirting, and Chair Covers</label>
+            </value>
+            <value>
+                <fullName>Tents, Staging, and Amusement Attractions</fullName>
+                <default>false</default>
+                <label>Tents, Staging, and Amusement Attractions</label>
+            </value>
+            <value>
+                <fullName>Physical Items Not Provided by Venue</fullName>
+                <default>false</default>
+                <label>Physical Items Not Provided by Venue</label>
+            </value>
+            <value>
+                <fullName>Labor and Delivery for Setup/Teardown</fullName>
+                <default>false</default>
+                <label>Labor and Delivery for Setup/Teardown</label>
+            </value>
+            <value>
+                <fullName>Music</fullName>
+                <default>false</default>
+                <label>Music</label>
+            </value>
+            <value>
+                <fullName>Contract Riders (Food, Lodging, Transportation)</fullName>
+                <default>false</default>
+                <label>Contract Riders (Food, Lodging, Transportation)</label>
+            </value>
+            <value>
+                <fullName>Salaried Employee Assignments</fullName>
+                <default>false</default>
+                <label>Salaried Employee Assignments</label>
+            </value>
+            <value>
+                <fullName>Accounting Fees</fullName>
+                <default>false</default>
+                <label>Accounting Fees</label>
+            </value>
+            <value>
+                <fullName>Legal Fees</fullName>
+                <default>false</default>
+                <label>Legal Fees</label>
+            </value>
+            <value>
+                <fullName>Consultant Fees</fullName>
+                <default>false</default>
+                <label>Consultant Fees</label>
+            </value>
+            <value>
+                <fullName>Part-time and Temporary Employees</fullName>
+                <default>false</default>
+                <label>Part-time and Temporary Employees</label>
+            </value>
+            <value>
+                <fullName>Speaker Fees</fullName>
+                <default>false</default>
+                <label>Speaker Fees</label>
+            </value>
+            <value>
+                <fullName>Travel</fullName>
+                <default>false</default>
+                <label>Travel</label>
+            </value>
+            <value>
+                <fullName>Event Planner</fullName>
+                <default>false</default>
+                <label>Event Planner</label>
+            </value>
+            <value>
+                <fullName>Office Supplies</fullName>
+                <default>false</default>
+                <label>Office Supplies</label>
+            </value>
+            <value>
+                <fullName>Communication</fullName>
+                <default>false</default>
+                <label>Communication</label>
+            </value>
+            <value>
+                <fullName>Security (Staff)</fullName>
+                <default>false</default>
+                <label>Security (Staff)</label>
+            </value>
+            <value>
+                <fullName>Print and Design Work</fullName>
+                <default>false</default>
+                <label>Print and Design Work</label>
+            </value>
+            <value>
+                <fullName>Advertisements</fullName>
+                <default>false</default>
+                <label>Advertisements</label>
+            </value>
+            <value>
+                <fullName>Invitations</fullName>
+                <default>false</default>
+                <label>Invitations</label>
+            </value>
+            <value>
+                <fullName>Registration Management</fullName>
+                <default>false</default>
+                <label>Registration Management</label>
+            </value>
+            <value>
+                <fullName>Twitter</fullName>
+                <default>false</default>
+                <label>Twitter</label>
+            </value>
+            <value>
+                <fullName>Instagram</fullName>
+                <default>false</default>
+                <label>Instagram</label>
+            </value>
+            <value>
+                <fullName>Facebook</fullName>
+                <default>false</default>
+                <label>Facebook</label>
+            </value>
+            <value>
+                <fullName>LinkedIn</fullName>
+                <default>false</default>
+                <label>LinkedIn</label>
+            </value>
+            <value>
+                <fullName>Pinterest</fullName>
+                <default>false</default>
+                <label>Pinterest</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Audiovisual (AV)</controllingFieldValue>
+            <valueName>Microphones</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Audiovisual (AV)</controllingFieldValue>
+            <valueName>Screens and Projectors</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Audiovisual (AV)</controllingFieldValue>
+            <valueName>Internet and WiFi</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Audiovisual (AV)</controllingFieldValue>
+            <controllingFieldValue>Catering (F&amp;B)</controllingFieldValue>
+            <controllingFieldValue>Decor</controllingFieldValue>
+            <controllingFieldValue>Site Rental</controllingFieldValue>
+            <controllingFieldValue>Entertainment</controllingFieldValue>
+            <controllingFieldValue>Production &amp; Staff</controllingFieldValue>
+            <controllingFieldValue>Marketing (Social)</controllingFieldValue>
+            <valueName>Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Catering (F&amp;B)</controllingFieldValue>
+            <valueName>Meals</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Catering (F&amp;B)</controllingFieldValue>
+            <valueName>Beverage</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Catering (F&amp;B)</controllingFieldValue>
+            <valueName>Bartending/Server</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Catering (F&amp;B)</controllingFieldValue>
+            <valueName>Tax</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Catering (F&amp;B)</controllingFieldValue>
+            <valueName>Gratuity</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Decor</controllingFieldValue>
+            <valueName>Lighting</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Decor</controllingFieldValue>
+            <valueName>Flowers and centerpieces</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Decor</controllingFieldValue>
+            <valueName>Balloons</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Site Rental</controllingFieldValue>
+            <valueName>Venue/Room</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Site Rental</controllingFieldValue>
+            <valueName>Security deposit</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Site Rental</controllingFieldValue>
+            <valueName>Insurance</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Site Rental</controllingFieldValue>
+            <valueName>Parking</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Site Rental</controllingFieldValue>
+            <valueName>Linens, Table Skirting, and Chair Covers</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Site Rental</controllingFieldValue>
+            <valueName>Tents, Staging, and Amusement Attractions</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Site Rental</controllingFieldValue>
+            <valueName>Physical Items Not Provided by Venue</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Site Rental</controllingFieldValue>
+            <valueName>Labor and Delivery for Setup/Teardown</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Entertainment</controllingFieldValue>
+            <valueName>Music</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Entertainment</controllingFieldValue>
+            <valueName>Contract Riders (Food, Lodging, Transportation)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Production &amp; Staff</controllingFieldValue>
+            <valueName>Salaried Employee Assignments</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Production &amp; Staff</controllingFieldValue>
+            <valueName>Accounting Fees</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Production &amp; Staff</controllingFieldValue>
+            <valueName>Legal Fees</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Production &amp; Staff</controllingFieldValue>
+            <valueName>Consultant Fees</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Production &amp; Staff</controllingFieldValue>
+            <valueName>Part-time and Temporary Employees</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Production &amp; Staff</controllingFieldValue>
+            <valueName>Speaker Fees</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Production &amp; Staff</controllingFieldValue>
+            <valueName>Travel</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Production &amp; Staff</controllingFieldValue>
+            <valueName>Event Planner</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Production &amp; Staff</controllingFieldValue>
+            <valueName>Office Supplies</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Production &amp; Staff</controllingFieldValue>
+            <valueName>Communication</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Production &amp; Staff</controllingFieldValue>
+            <valueName>Security (Staff)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing (Social)</controllingFieldValue>
+            <valueName>Twitter</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing (Social)</controllingFieldValue>
+            <valueName>Instagram</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing (Social)</controllingFieldValue>
+            <valueName>Facebook</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing (Social)</controllingFieldValue>
+            <valueName>LinkedIn</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing (Social)</controllingFieldValue>
+            <valueName>Pinterest</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing</controllingFieldValue>
+            <valueName>Print and Design Work</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing</controllingFieldValue>
+            <valueName>Advertisements</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing</controllingFieldValue>
+            <valueName>Invitations</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing</controllingFieldValue>
+            <valueName>Registration Management</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

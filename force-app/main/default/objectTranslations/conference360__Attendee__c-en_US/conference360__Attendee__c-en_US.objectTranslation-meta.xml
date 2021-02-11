@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- Mobile Create Attendee --></label>
+        <name>conference360__Mobile_Create_Attendee</name>
+    </fieldSets>
+    <webLinks>
+        <label><!-- Add_To_Webinar --></label>
+        <name>conference360__Add_To_Webinar</name>
+    </webLinks>
+</CustomObjectTranslation>

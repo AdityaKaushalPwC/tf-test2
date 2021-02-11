@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Ilmaisee, onko tämä oletusosoite, jota käytetään kotitaloudelle ja sen yhteyshenkilöille.</help>
+    <label><!-- Default Address --></label>
+    <name>hed__Default_Address__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>conference360__Event_End_Date_Time__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <formula>IF(ISBLANK(TEXT(conference360__Event_End_Date__c)), &quot;&quot;, TEXT(MONTH(conference360__Event_End_Date__c)) &amp; &quot;/&quot; &amp; TEXT(DAY(conference360__Event_End_Date__c)) &amp; &quot;/&quot; &amp; TEXT(YEAR(conference360__Event_End_Date__c))) 
+&amp; &quot; &quot; &amp;
+IF(ISBLANK(TEXT(conference360__Event_End_Time__c)), &quot;&quot;, 
+
+IF(
+  OR(
+    VALUE(LEFT(TEXT(conference360__Event_End_Time__c), 2)) = 0,
+    VALUE(LEFT(TEXT(conference360__Event_End_Time__c), 2)) = 12
+  ),
+  &quot;12&quot;,
+  TEXT(VALUE(LEFT(TEXT(conference360__Event_End_Time__c), 2)) 
+   -
+   IF(VALUE(LEFT(TEXT(conference360__Event_End_Time__c), 2)) &lt; 12, 0, 12))
+)
+&amp; &quot;:&quot; &amp;
+MID(TEXT(conference360__Event_End_Time__c), 4, 2)
+&amp; &quot; &quot; &amp;
+IF(VALUE(LEFT(TEXT(conference360__Event_End_Time__c), 2)) &lt; 12, &quot;AM&quot;, &quot;PM&quot;)
+
+ &amp; &quot; &quot; &amp; NULLVALUE(TEXT(conference360__Time_Zone__c), &quot;&quot;))</formula>
+    <inlineHelpText>Formatted Event End Date and Time formula based off the Event End Date, Event End Time and Timezone fields. This field can be used in reports and email templates.</inlineHelpText>
+    <label>Event End Date/Time</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

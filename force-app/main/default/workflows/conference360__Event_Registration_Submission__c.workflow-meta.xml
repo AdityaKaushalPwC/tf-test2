@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>conference360__ERS_Failed_Email</fullName>
+        <description>ERS Failed Email</description>
+        <protected>false</protected>
+        <recipients>
+            <field>LastModifiedById</field>
+            <type>userLookup</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>conference360__Blackthorn_Events/conference360__Blackthorn_Events_ERS_Failed</template>
+    </alerts>
+    <rules>
+        <fullName>conference360__Blackthorn %7C Events ERS Failed</fullName>
+        <actions>
+            <name>conference360__ERS_Failed_Email</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>conference360__Event_Registration_Submission__c.conference360__Status__c</field>
+            <operation>equals</operation>
+            <value>Failed</value>
+        </criteriaItems>
+        <description>send an email when ERS fails</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+</Workflow>

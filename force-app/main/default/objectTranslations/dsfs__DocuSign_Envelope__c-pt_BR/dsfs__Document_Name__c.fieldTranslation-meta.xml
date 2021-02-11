@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Esta é uma lista de documentos PDF localizados na &quot;Guia de documentos&quot; na Salesforce da sua organização.  Para enviar com DocuSign, você deve adicionar um PDF a qualquer uma das pastas dentro da Guia de documentos em Salesforce.  Para enviar em outros formatos, clique em &quot;Saiba mais&quot;.</help>
+    <label><!-- Document Name --></label>
+    <name>dsfs__Document_Name__c</name>
+</CustomFieldTranslation>

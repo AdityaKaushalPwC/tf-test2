@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>El context en què s&apos;ha d&apos;executar aquesta classe, per exemple, abans que s&apos;insereixi un registre, després que se suprimeixi un registre, etc.</help>
+    <label><!-- Trigger Action --></label>
+    <name>hed__Trigger_Action__c</name>
+    <picklistValues>
+        <masterLabel>AfterDelete</masterLabel>
+        <translation>Després de suprimir</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>AfterInsert</masterLabel>
+        <translation>Després d&apos;inserir</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>AfterUndelete</masterLabel>
+        <translation>Després de recuperar</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>AfterUpdate</masterLabel>
+        <translation>Després d&apos;actualitzar</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BeforeDelete</masterLabel>
+        <translation>Abans de suprimir</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BeforeInsert</masterLabel>
+        <translation>Abans d&apos;inserir</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BeforeUpdate</masterLabel>
+        <translation>Abans d&apos;actualitzar</translation>
+    </picklistValues>
+</CustomFieldTranslation>

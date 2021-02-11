@@ -1,0 +1,918 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- The Language or Locale of the Data Dictionary Entry --></help>
+    <label><!-- Language / Locale --></label>
+    <name>bt_stripe__Locale__c</name>
+    <picklistValues>
+        <masterLabel>Afrikaans (South Africa)</masterLabel>
+        <translation><!-- Afrikaans (South Africa) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Albanian (Albania)</masterLabel>
+        <translation><!-- Albanian (Albania) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Arabic (Algeria)</masterLabel>
+        <translation><!-- Arabic (Algeria) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Arabic (Bahrain)</masterLabel>
+        <translation><!-- Arabic (Bahrain) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Arabic (Egypt)</masterLabel>
+        <translation><!-- Arabic (Egypt) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Arabic (Iraq)</masterLabel>
+        <translation><!-- Arabic (Iraq) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Arabic (Jordan)</masterLabel>
+        <translation><!-- Arabic (Jordan) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Arabic (Kuwait)</masterLabel>
+        <translation><!-- Arabic (Kuwait) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Arabic (Lebanon)</masterLabel>
+        <translation><!-- Arabic (Lebanon) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Arabic (Libya)</masterLabel>
+        <translation><!-- Arabic (Libya) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Arabic (Morocco)</masterLabel>
+        <translation><!-- Arabic (Morocco) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Arabic (Oman)</masterLabel>
+        <translation><!-- Arabic (Oman) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Arabic (Qatar)</masterLabel>
+        <translation><!-- Arabic (Qatar) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Arabic (Saudi Arabia)</masterLabel>
+        <translation><!-- Arabic (Saudi Arabia) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Arabic (Sudan)</masterLabel>
+        <translation><!-- Arabic (Sudan) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Arabic (Syria)</masterLabel>
+        <translation><!-- Arabic (Syria) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Arabic (Tunisia)</masterLabel>
+        <translation><!-- Arabic (Tunisia) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Arabic (United Arab Emirates)</masterLabel>
+        <translation><!-- Arabic (United Arab Emirates) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Arabic (Yemen)</masterLabel>
+        <translation><!-- Arabic (Yemen) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Armenian (Armenia)</masterLabel>
+        <translation><!-- Armenian (Armenia) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Azerbaijani (Azerbaijan)</masterLabel>
+        <translation><!-- Azerbaijani (Azerbaijan) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bangla (Bangladesh)</masterLabel>
+        <translation><!-- Bangla (Bangladesh) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bangla (India)</masterLabel>
+        <translation><!-- Bangla (India) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Basque (Spain)</masterLabel>
+        <translation><!-- Basque (Spain) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Belarusian (Belarus)</masterLabel>
+        <translation><!-- Belarusian (Belarus) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bosnian (Bosnia &amp; Herzegovina)</masterLabel>
+        <translation><!-- Bosnian (Bosnia &amp; Herzegovina) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bulgarian (Bulgaria)</masterLabel>
+        <translation><!-- Bulgarian (Bulgaria) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Burmese (Myanmar (Burma))</masterLabel>
+        <translation><!-- Burmese (Myanmar (Burma)) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Catalan (Spain)</masterLabel>
+        <translation><!-- Catalan (Spain) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Chinese</masterLabel>
+        <translation><!-- Chinese --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Chinese (China)</masterLabel>
+        <translation><!-- Chinese (China) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Chinese (China, Pinyin Ordering)</masterLabel>
+        <translation><!-- Chinese (China, Pinyin Ordering) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Chinese (China, Stroke Ordering)</masterLabel>
+        <translation><!-- Chinese (China, Stroke Ordering) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Chinese (Hong Kong SAR China)</masterLabel>
+        <translation><!-- Chinese (Hong Kong SAR China) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Chinese (Hong Kong SAR China, Stroke Ordering)</masterLabel>
+        <translation><!-- Chinese (Hong Kong SAR China, Stroke Ordering) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Chinese (Macau SAR China)</masterLabel>
+        <translation><!-- Chinese (Macau SAR China) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Chinese (Singapore)</masterLabel>
+        <translation><!-- Chinese (Singapore) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Chinese (Taiwan)</masterLabel>
+        <translation><!-- Chinese (Taiwan) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Chinese (Taiwan, Stroke Ordering)</masterLabel>
+        <translation><!-- Chinese (Taiwan, Stroke Ordering) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Croatian (Croatia)</masterLabel>
+        <translation><!-- Croatian (Croatia) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Czech (Czechia)</masterLabel>
+        <translation><!-- Czech (Czechia) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Danish</masterLabel>
+        <translation><!-- Danish --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Danish (Denmark)</masterLabel>
+        <translation><!-- Danish (Denmark) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dutch</masterLabel>
+        <translation><!-- Dutch --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dutch (Aruba)</masterLabel>
+        <translation><!-- Dutch (Aruba) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dutch (Belgium)</masterLabel>
+        <translation><!-- Dutch (Belgium) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dutch (Netherlands)</masterLabel>
+        <translation><!-- Dutch (Netherlands) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dutch (Suriname)</masterLabel>
+        <translation><!-- Dutch (Suriname) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dzongkha (Bhutan)</masterLabel>
+        <translation><!-- Dzongkha (Bhutan) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>English</masterLabel>
+        <translation><!-- English --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>English (Antigua &amp; Barbuda)</masterLabel>
+        <translation><!-- English (Antigua &amp; Barbuda) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>English (Australia)</masterLabel>
+        <translation><!-- English (Australia) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>English (Bahamas)</masterLabel>
+        <translation><!-- English (Bahamas) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>English (Barbados)</masterLabel>
+        <translation><!-- English (Barbados) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>English (Belize)</masterLabel>
+        <translation><!-- English (Belize) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>English (Bermuda)</masterLabel>
+        <translation><!-- English (Bermuda) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>English (Botswana)</masterLabel>
+        <translation><!-- English (Botswana) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>English (Cameroon)</masterLabel>
+        <translation><!-- English (Cameroon) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>English (Canada)</masterLabel>
+        <translation><!-- English (Canada) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>English (Cayman Islands)</masterLabel>
+        <translation><!-- English (Cayman Islands) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>English (Eritrea)</masterLabel>
+        <translation><!-- English (Eritrea) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>English (Falkland Islands)</masterLabel>
+        <translation><!-- English (Falkland Islands) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>English (Fiji)</masterLabel>
+        <translation><!-- English (Fiji) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>English (Gambia)</masterLabel>
+        <translation><!-- English (Gambia) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>English (Ghana)</masterLabel>
+        <translation><!-- English (Ghana) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>English (Gibraltar)</masterLabel>
+        <translation><!-- English (Gibraltar) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>English (Guyana)</masterLabel>
+        <translation><!-- English (Guyana) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>English (Hong Kong SAR China)</masterLabel>
+        <translation><!-- English (Hong Kong SAR China) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>English (India)</masterLabel>
+        <translation><!-- English (India) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>English (Indonesia)</masterLabel>
+        <translation><!-- English (Indonesia) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>English (Ireland)</masterLabel>
+        <translation><!-- English (Ireland) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>English (Jamaica)</masterLabel>
+        <translation><!-- English (Jamaica) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>English (Kenya)</masterLabel>
+        <translation><!-- English (Kenya) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>English (Liberia)</masterLabel>
+        <translation><!-- English (Liberia) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>English (Madagascar)</masterLabel>
+        <translation><!-- English (Madagascar) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>English (Malawi)</masterLabel>
+        <translation><!-- English (Malawi) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>English (Malaysia)</masterLabel>
+        <translation><!-- English (Malaysia) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>English (Mauritius)</masterLabel>
+        <translation><!-- English (Mauritius) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>English (Namibia)</masterLabel>
+        <translation><!-- English (Namibia) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>English (New Zealand)</masterLabel>
+        <translation><!-- English (New Zealand) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>English (Nigeria)</masterLabel>
+        <translation><!-- English (Nigeria) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>English (Pakistan)</masterLabel>
+        <translation><!-- English (Pakistan) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>English (Papua New Guinea)</masterLabel>
+        <translation><!-- English (Papua New Guinea) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>English (Philippines)</masterLabel>
+        <translation><!-- English (Philippines) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>English (Rwanda)</masterLabel>
+        <translation><!-- English (Rwanda) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>English (Samoa)</masterLabel>
+        <translation><!-- English (Samoa) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>English (Seychelles)</masterLabel>
+        <translation><!-- English (Seychelles) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>English (Sierra Leone)</masterLabel>
+        <translation><!-- English (Sierra Leone) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>English (Singapore)</masterLabel>
+        <translation><!-- English (Singapore) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>English (Sint Maarten)</masterLabel>
+        <translation><!-- English (Sint Maarten) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>English (Solomon Islands)</masterLabel>
+        <translation><!-- English (Solomon Islands) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>English (South Africa)</masterLabel>
+        <translation><!-- English (South Africa) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>English (St. Helena)</masterLabel>
+        <translation><!-- English (St. Helena) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>English (Swaziland)</masterLabel>
+        <translation><!-- English (Swaziland) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>English (Tanzania)</masterLabel>
+        <translation><!-- English (Tanzania) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>English (Tonga)</masterLabel>
+        <translation><!-- English (Tonga) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>English (Trinidad &amp; Tobago)</masterLabel>
+        <translation><!-- English (Trinidad &amp; Tobago) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>English (Uganda)</masterLabel>
+        <translation><!-- English (Uganda) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>English (United Kingdom)</masterLabel>
+        <translation><!-- English (United Kingdom) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>English (United States)</masterLabel>
+        <translation><!-- English (United States) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>English (Vanuatu)</masterLabel>
+        <translation><!-- English (Vanuatu) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Estonian (Estonia)</masterLabel>
+        <translation><!-- Estonian (Estonia) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Finnish</masterLabel>
+        <translation><!-- Finnish --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Finnish (Finland)</masterLabel>
+        <translation><!-- Finnish (Finland) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>French</masterLabel>
+        <translation><!-- French --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>French (Belgium)</masterLabel>
+        <translation><!-- French (Belgium) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>French (Canada)</masterLabel>
+        <translation><!-- French (Canada) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>French (Comoros)</masterLabel>
+        <translation><!-- French (Comoros) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>French (France)</masterLabel>
+        <translation><!-- French (France) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>French (Guinea)</masterLabel>
+        <translation><!-- French (Guinea) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>French (Haiti)</masterLabel>
+        <translation><!-- French (Haiti) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>French (Luxembourg)</masterLabel>
+        <translation><!-- French (Luxembourg) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>French (Mauritania)</masterLabel>
+        <translation><!-- French (Mauritania) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>French (Monaco)</masterLabel>
+        <translation><!-- French (Monaco) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>French (Switzerland)</masterLabel>
+        <translation><!-- French (Switzerland) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>French (Wallis &amp; Futuna)</masterLabel>
+        <translation><!-- French (Wallis &amp; Futuna) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Georgian (Georgia)</masterLabel>
+        <translation><!-- Georgian (Georgia) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>German</masterLabel>
+        <translation><!-- German --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>German (Austria)</masterLabel>
+        <translation><!-- German (Austria) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>German (Belgium)</masterLabel>
+        <translation><!-- German (Belgium) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>German (Germany)</masterLabel>
+        <translation><!-- German (Germany) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>German (Luxembourg)</masterLabel>
+        <translation><!-- German (Luxembourg) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>German (Switzerland)</masterLabel>
+        <translation><!-- German (Switzerland) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Greek (Greece)</masterLabel>
+        <translation><!-- Greek (Greece) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Gujarati (India)</masterLabel>
+        <translation><!-- Gujarati (India) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hebrew (Israel)</masterLabel>
+        <translation><!-- Hebrew (Israel) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hindi (India)</masterLabel>
+        <translation><!-- Hindi (India) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hungarian (Hungary)</masterLabel>
+        <translation><!-- Hungarian (Hungary) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Icelandic (Iceland)</masterLabel>
+        <translation><!-- Icelandic (Iceland) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Indonesian (Indonesia)</masterLabel>
+        <translation><!-- Indonesian (Indonesia) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Irish (Ireland)</masterLabel>
+        <translation><!-- Irish (Ireland) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Italian</masterLabel>
+        <translation><!-- Italian --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Italian (Italy)</masterLabel>
+        <translation><!-- Italian (Italy) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Italian (Switzerland)</masterLabel>
+        <translation><!-- Italian (Switzerland) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Japanese</masterLabel>
+        <translation><!-- Japanese --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Japanese (Japan)</masterLabel>
+        <translation><!-- Japanese (Japan) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Kannada (India)</masterLabel>
+        <translation><!-- Kannada (India) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Kazakh (Kazakhstan)</masterLabel>
+        <translation><!-- Kazakh (Kazakhstan) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Khmer (Cambodia)</masterLabel>
+        <translation><!-- Khmer (Cambodia) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Korean</masterLabel>
+        <translation><!-- Korean --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Korean (North Korea)</masterLabel>
+        <translation><!-- Korean (North Korea) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Korean (South Korea)</masterLabel>
+        <translation><!-- Korean (South Korea) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Kyrgyz (Kyrgyzstan)</masterLabel>
+        <translation><!-- Kyrgyz (Kyrgyzstan) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Lao (Laos)</masterLabel>
+        <translation><!-- Lao (Laos) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Latvian (Latvia)</masterLabel>
+        <translation><!-- Latvian (Latvia) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Lithuanian (Lithuania)</masterLabel>
+        <translation><!-- Lithuanian (Lithuania) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Luba-Katanga (Congo - Kinshasa)</masterLabel>
+        <translation><!-- Luba-Katanga (Congo - Kinshasa) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Luxembourgish (Luxembourg)</masterLabel>
+        <translation><!-- Luxembourgish (Luxembourg) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Macedonian (Macedonia)</masterLabel>
+        <translation><!-- Macedonian (Macedonia) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Malay (Brunei)</masterLabel>
+        <translation><!-- Malay (Brunei) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Malay (Malaysia)</masterLabel>
+        <translation><!-- Malay (Malaysia) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Malayalam (India)</masterLabel>
+        <translation><!-- Malayalam (India) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Maltese (Malta)</masterLabel>
+        <translation><!-- Maltese (Malta) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Maori (New Zealand)</masterLabel>
+        <translation><!-- Maori (New Zealand) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Marathi (India)</masterLabel>
+        <translation><!-- Marathi (India) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Montenegrin (Montenegro)</masterLabel>
+        <translation><!-- Montenegrin (Montenegro) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Montenegrin (Montenegro, USD)</masterLabel>
+        <translation><!-- Montenegrin (Montenegro, USD) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Nepali (Nepal)</masterLabel>
+        <translation><!-- Nepali (Nepal) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Norwegian</masterLabel>
+        <translation><!-- Norwegian --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Norwegian (Norway)</masterLabel>
+        <translation><!-- Norwegian (Norway) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pashto (Afghanistan)</masterLabel>
+        <translation><!-- Pashto (Afghanistan) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Persian (Iran)</masterLabel>
+        <translation><!-- Persian (Iran) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Polish (Poland)</masterLabel>
+        <translation><!-- Polish (Poland) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Portuguese</masterLabel>
+        <translation><!-- Portuguese --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Portuguese (Angola)</masterLabel>
+        <translation><!-- Portuguese (Angola) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Portuguese (Brazil)</masterLabel>
+        <translation><!-- Portuguese (Brazil) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Portuguese (Cape Verde)</masterLabel>
+        <translation><!-- Portuguese (Cape Verde) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Portuguese (Mozambique)</masterLabel>
+        <translation><!-- Portuguese (Mozambique) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Portuguese (Portugal)</masterLabel>
+        <translation><!-- Portuguese (Portugal) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Portuguese (São Tomé &amp; Príncipe)</masterLabel>
+        <translation><!-- Portuguese (São Tomé &amp; Príncipe) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Romanian (Moldova)</masterLabel>
+        <translation><!-- Romanian (Moldova) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Romanian (Romania)</masterLabel>
+        <translation><!-- Romanian (Romania) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Romansh (Switzerland)</masterLabel>
+        <translation><!-- Romansh (Switzerland) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Rundi (Burundi)</masterLabel>
+        <translation><!-- Rundi (Burundi) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Russian</masterLabel>
+        <translation><!-- Russian --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Russian (Kazakhstan)</masterLabel>
+        <translation><!-- Russian (Kazakhstan) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Russian (Russia)</masterLabel>
+        <translation><!-- Russian (Russia) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Serbian (Cyrillic) (Bosnia and Herzegovina)</masterLabel>
+        <translation><!-- Serbian (Cyrillic) (Bosnia and Herzegovina) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Serbian (Cyrillic) (Serbia)</masterLabel>
+        <translation><!-- Serbian (Cyrillic) (Serbia) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Serbian (Latin) (Bosnia and Herzegovina)</masterLabel>
+        <translation><!-- Serbian (Latin) (Bosnia and Herzegovina) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Serbian (Latin) (Serbia)</masterLabel>
+        <translation><!-- Serbian (Latin) (Serbia) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Serbian (Serbia)</masterLabel>
+        <translation><!-- Serbian (Serbia) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Slovak (Slovakia)</masterLabel>
+        <translation><!-- Slovak (Slovakia) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Slovenian (Slovenia)</masterLabel>
+        <translation><!-- Slovenian (Slovenia) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Somali (Djibouti)</masterLabel>
+        <translation><!-- Somali (Djibouti) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Somali (Somalia)</masterLabel>
+        <translation><!-- Somali (Somalia) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Spanish</masterLabel>
+        <translation><!-- Spanish --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Spanish (Argentina)</masterLabel>
+        <translation><!-- Spanish (Argentina) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Spanish (Bolivia)</masterLabel>
+        <translation><!-- Spanish (Bolivia) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Spanish (Chile)</masterLabel>
+        <translation><!-- Spanish (Chile) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Spanish (Colombia)</masterLabel>
+        <translation><!-- Spanish (Colombia) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Spanish (Costa Rica)</masterLabel>
+        <translation><!-- Spanish (Costa Rica) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Spanish (Cuba)</masterLabel>
+        <translation><!-- Spanish (Cuba) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Spanish (Dominican Republic)</masterLabel>
+        <translation><!-- Spanish (Dominican Republic) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Spanish (Ecuador)</masterLabel>
+        <translation><!-- Spanish (Ecuador) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Spanish (El Salvador)</masterLabel>
+        <translation><!-- Spanish (El Salvador) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Spanish (Guatemala)</masterLabel>
+        <translation><!-- Spanish (Guatemala) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Spanish (Honduras)</masterLabel>
+        <translation><!-- Spanish (Honduras) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Spanish (Mexico)</masterLabel>
+        <translation><!-- Spanish (Mexico) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Spanish (Nicaragua)</masterLabel>
+        <translation><!-- Spanish (Nicaragua) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Spanish (Panama)</masterLabel>
+        <translation><!-- Spanish (Panama) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Spanish (Paraguay)</masterLabel>
+        <translation><!-- Spanish (Paraguay) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Spanish (Peru)</masterLabel>
+        <translation><!-- Spanish (Peru) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Spanish (Puerto Rico)</masterLabel>
+        <translation><!-- Spanish (Puerto Rico) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Spanish (Spain)</masterLabel>
+        <translation><!-- Spanish (Spain) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Spanish (United States)</masterLabel>
+        <translation><!-- Spanish (United States) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Spanish (Uruguay)</masterLabel>
+        <translation><!-- Spanish (Uruguay) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Spanish (Venezuela)</masterLabel>
+        <translation><!-- Spanish (Venezuela) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Swahili (Kenya)</masterLabel>
+        <translation><!-- Swahili (Kenya) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Swedish</masterLabel>
+        <translation><!-- Swedish --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Swedish (Sweden)</masterLabel>
+        <translation><!-- Swedish (Sweden) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tagalog (Philippines)</masterLabel>
+        <translation><!-- Tagalog (Philippines) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tajik (Tajikistan)</masterLabel>
+        <translation><!-- Tajik (Tajikistan) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tamil (India)</masterLabel>
+        <translation><!-- Tamil (India) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tamil (Sri Lanka)</masterLabel>
+        <translation><!-- Tamil (Sri Lanka) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Telugu (India)</masterLabel>
+        <translation><!-- Telugu (India) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Thai</masterLabel>
+        <translation><!-- Thai --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Thai (Thailand)</masterLabel>
+        <translation><!-- Thai (Thailand) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tigrinya (Ethiopia)</masterLabel>
+        <translation><!-- Tigrinya (Ethiopia) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Turkish (Turkey)</masterLabel>
+        <translation><!-- Turkish (Turkey) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ukrainian (Ukraine)</masterLabel>
+        <translation><!-- Ukrainian (Ukraine) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Urdu (Pakistan)</masterLabel>
+        <translation><!-- Urdu (Pakistan) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Uzbek (LATN,UZ)</masterLabel>
+        <translation><!-- Uzbek (LATN,UZ) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Vietnamese (Vietnam)</masterLabel>
+        <translation><!-- Vietnamese (Vietnam) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Welsh (United Kingdom)</masterLabel>
+        <translation><!-- Welsh (United Kingdom) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Xhosa (South Africa)</masterLabel>
+        <translation><!-- Xhosa (South Africa) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Yoruba (Benin)</masterLabel>
+        <translation><!-- Yoruba (Benin) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Zulu (South Africa)</masterLabel>
+        <translation><!-- Zulu (South Africa) --></translation>
+    </picklistValues>
+</CustomFieldTranslation>
